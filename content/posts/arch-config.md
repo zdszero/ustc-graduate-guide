@@ -1,6 +1,7 @@
 ---
 title: Arch Linux安装完之后的工作
 date: 2021-01-04 12:53:58
+tags: ["linux"]
 draft: true
 ---
 

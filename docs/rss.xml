@@ -23,7 +23,7 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
         
-        <lastBuildDate>Sun, 30 May 2021 16:53:02 &#43;0800</lastBuildDate>
+        <lastBuildDate>Sun, 30 May 2021 23:52:08 &#43;0800</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://zdszero.github.io/rss.xml" />
         
@@ -398,6 +398,14 @@ output:
                     
                         
                     
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://zdszero.github.io/tags/%E4%B8%AD%E7%A7%91%E5%A4%A7%E5%A4%8D%E8%AF%95/">中科大复试</category>
+                                
+                            
                         
                     
                 
@@ -809,6 +817,14 @@ I Am Very Nervous Today Since I Will Attend The C Programming
                         
                     
                         
+                            
+                                
+                                
+                                
+                                    <category domain="https://zdszero.github.io/tags/%E4%B8%AD%E7%A7%91%E5%A4%A7%E5%A4%8D%E8%AF%95/">中科大复试</category>
+                                
+                            
+                        
                     
                 
             </item>
@@ -1134,6 +1150,14 @@ D B A E C
                     
                         
                     
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://zdszero.github.io/tags/%E4%B8%AD%E7%A7%91%E5%A4%A7%E5%A4%8D%E8%AF%95/">中科大复试</category>
+                                
+                            
                         
                     
                 
@@ -1464,7 +1488,7 @@ k=3
 5
 输出：
 1 2 3 5
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img src=&#34;img/graph.png&#34; alt=&#34;graph&#34;&gt;&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img src=&#34;../img/graph.png&#34; alt=&#34;graph&#34;&gt;&lt;/p&gt;
 &lt;h3 id=&#34;解题思路-1&#34;&gt;解题思路&lt;/h3&gt;
 &lt;p&gt;本题考察最短路径，1经过k到n的最短路径即1到k的最短路径加上k到n的最短路径。我们用&lt;code&gt;next&lt;/code&gt;数组来记录两点之间的最短路径的中间点，用&lt;code&gt;g&lt;/code&gt;数组来保存两点之间的路径。建议在遇到最短路径问题时直接用&lt;code&gt;floyed-warshall&lt;/code&gt;算法，简单粗暴，便于记忆。考场上写&lt;code&gt;djkstra&lt;/code&gt;还是不稳。&lt;/p&gt;
 &lt;h3 id=&#34;代码-3&#34;&gt;代码&lt;/h3&gt;
@@ -2044,6 +2068,14 @@ Sample output:
                         
                     
                         
+                            
+                                
+                                
+                                
+                                    <category domain="https://zdszero.github.io/tags/%E4%B8%AD%E7%A7%91%E5%A4%A7%E5%A4%8D%E8%AF%95/">中科大复试</category>
+                                
+                            
+                        
                     
                 
             </item>
@@ -2548,6 +2580,14 @@ Sample Output:
                         
                     
                         
+                            
+                                
+                                
+                                
+                                    <category domain="https://zdszero.github.io/tags/%E4%B8%AD%E7%A7%91%E5%A4%A7%E5%A4%8D%E8%AF%95/">中科大复试</category>
+                                
+                            
+                        
                     
                 
             </item>
@@ -2579,6 +2619,14 @@ Sample Output:
                     
                         
                     
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://zdszero.github.io/tags/%E4%B8%AD%E7%A7%91%E5%A4%A7%E5%A4%8D%E8%AF%95/">中科大复试</category>
+                                
+                            
                         
                     
                 
@@ -3008,6 +3056,14 @@ fc-cache
                         
                     
                         
+                            
+                                
+                                
+                                
+                                    <category domain="https://zdszero.github.io/tags/linux/">linux</category>
+                                
+                            
+                        
                     
                 
             </item>
@@ -3127,6 +3183,14 @@ reboot
                     
                         
                     
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://zdszero.github.io/tags/linux/">linux</category>
+                                
+                            
                         
                     
                 

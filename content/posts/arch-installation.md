@@ -1,6 +1,7 @@
 ---
 title: Arch Linux的安装教程
 date: 2021-01-01 10:52:11
+tags: ["linux"]
 draft: true
 ---
 

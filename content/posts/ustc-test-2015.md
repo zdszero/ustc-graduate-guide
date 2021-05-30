@@ -209,7 +209,7 @@ k=3
 1 2 3 5
 ```
 
-![graph](img/graph.png)
+![graph](../img/graph.png)
 
 ### 解题思路
 

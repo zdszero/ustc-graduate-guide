@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
     <title type="text">Less is More</title>
     <subtitle type="html">MemE 是一个强大且可高度定制的 GoHugo 博客主题，专为个人博客设计。</subtitle>
-    <updated>2021-05-30T16:53:02&#43;08:00</updated>
+    <updated>2021-05-30T23:52:08&#43;08:00</updated>
     <id>https://zdszero.github.io/</id>
     <link rel="alternate" type="text/html" href="https://zdszero.github.io/" />
     <link rel="self" type="application/atom&#43;xml" href="https://zdszero.github.io/atom.xml" />
@@ -389,6 +389,14 @@ output:
                 
                     
                 
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://zdszero.github.io/tags/%E4%B8%AD%E7%A7%91%E5%A4%A7%E5%A4%8D%E8%AF%95/" term="中科大复试" label="中科大复试" />
+                            
+                        
                     
                 
             
@@ -803,6 +811,14 @@ I Am Very Nervous Today Since I Will Attend The C Programming
                     
                 
                     
+                        
+                            
+                            
+                            
+                                <category scheme="https://zdszero.github.io/tags/%E4%B8%AD%E7%A7%91%E5%A4%A7%E5%A4%8D%E8%AF%95/" term="中科大复试" label="中科大复试" />
+                            
+                        
+                    
                 
             
         </entry>
@@ -1131,6 +1147,14 @@ D B A E C
                 
                     
                 
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://zdszero.github.io/tags/%E4%B8%AD%E7%A7%91%E5%A4%A7%E5%A4%8D%E8%AF%95/" term="中科大复试" label="中科大复试" />
+                            
+                        
                     
                 
             
@@ -1464,7 +1488,7 @@ k=3
 5
 输出：
 1 2 3 5
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img src=&#34;img/graph.png&#34; alt=&#34;graph&#34;&gt;&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img src=&#34;../img/graph.png&#34; alt=&#34;graph&#34;&gt;&lt;/p&gt;
 &lt;h3 id=&#34;解题思路-1&#34;&gt;解题思路&lt;/h3&gt;
 &lt;p&gt;本题考察最短路径，1经过k到n的最短路径即1到k的最短路径加上k到n的最短路径。我们用&lt;code&gt;next&lt;/code&gt;数组来记录两点之间的最短路径的中间点，用&lt;code&gt;g&lt;/code&gt;数组来保存两点之间的路径。建议在遇到最短路径问题时直接用&lt;code&gt;floyed-warshall&lt;/code&gt;算法，简单粗暴，便于记忆。考场上写&lt;code&gt;djkstra&lt;/code&gt;还是不稳。&lt;/p&gt;
 &lt;h3 id=&#34;代码-3&#34;&gt;代码&lt;/h3&gt;
@@ -2047,6 +2071,14 @@ Sample output:
                     
                 
                     
+                        
+                            
+                            
+                            
+                                <category scheme="https://zdszero.github.io/tags/%E4%B8%AD%E7%A7%91%E5%A4%A7%E5%A4%8D%E8%AF%95/" term="中科大复试" label="中科大复试" />
+                            
+                        
+                    
                 
             
         </entry>
@@ -2554,6 +2586,14 @@ Sample Output:
                     
                 
                     
+                        
+                            
+                            
+                            
+                                <category scheme="https://zdszero.github.io/tags/%E4%B8%AD%E7%A7%91%E5%A4%A7%E5%A4%8D%E8%AF%95/" term="中科大复试" label="中科大复试" />
+                            
+                        
+                    
                 
             
         </entry>
@@ -2588,6 +2628,14 @@ Sample Output:
                 
                     
                 
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://zdszero.github.io/tags/%E4%B8%AD%E7%A7%91%E5%A4%A7%E5%A4%8D%E8%AF%95/" term="中科大复试" label="中科大复试" />
+                            
+                        
                     
                 
             
@@ -3023,6 +3071,14 @@ fc-cache
                     
                 
                     
+                        
+                            
+                            
+                            
+                                <category scheme="https://zdszero.github.io/tags/linux/" term="linux" label="linux" />
+                            
+                        
+                    
                 
             
         </entry>
@@ -3145,6 +3201,14 @@ reboot
                 
                     
                 
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://zdszero.github.io/tags/linux/" term="linux" label="linux" />
+                            
+                        
                     
                 
             
