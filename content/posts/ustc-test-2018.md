@@ -1,5 +1,5 @@
 ---
-title: 中科大2018复试机试题详解
+title: 中科大2018年复试机试题详解
 date: 2021-05-18 12:00:00
 tags: ["中科大复试"]
 draft: true
@@ -50,14 +50,18 @@ int main(int argc, char *argv[]) {
 
 ### 题目描述
 
-从文件input.txt中读入一个m，表示有m个签到记录。记录每个人的上机时间，求出上机时间最长的人。若签退时间小于签到时间，则说明跨天。且一人可以多次签到，但多次签到的时间没有重合。输入包括学号 签到时间 签退时间
+文件`input2.txt`中存储着机房中的m条签到记录，其中每条签到记录由学生的学号、签到时间、签退时间组成。若签退时间小于签到时间，则说明跨天。一人可以多次签到，但多次签到的时间没有重合。
+
+文件`input2.txt`中第一行是m，接下来是m行签到记录，要求给出在机房中停留时间最长的学生学号，并输出到标准输出。
 
 ```
-input:
+输入示例:
 3
 SA0010001 13:00 16:39
 SA0010101 07:22 22:01
 SA0010111 12:00 11:56
+输出示例:
+SA0010111
 ```
 
 ### 解题思路
@@ -68,6 +72,7 @@ SA0010111 12:00 11:56
 ### 代码
 
 ```cpp
+#include <fstream>
 #include <iostream>
 #include <unordered_map>
 using namespace std;
@@ -75,17 +80,22 @@ using namespace std;
 int getGap(int a, int b, int c, int d) { return a * 60 + b - c * 60 - d; }
 
 int main(int argc, char *argv[]) {
-  int n;
-  cin >> n;
-  int longest = 0;
   unordered_map<string, int> timeTrack;
+  ifstream ifs("./input2.txt");
+  int n;
+  ifs >> n;
   string id, ans;
   /* start hour, start minite, end hour, end minute */
   int sh, sm, eh, em;
+  int longest = 0;
   for (int i = 0; i < n; i++) {
-    cin >> id;
-    scanf("%d:%d", &sh, &sm);
-    scanf("%d:%d", &eh, &em);
+    ifs >> id;
+    ifs >> sh;
+    ifs.ignore(1);
+    ifs >> sm;
+    ifs >> eh;
+    ifs.ignore(1);
+    ifs >> em;
     int tmp;
     // the next day
     if (eh <= sh && em <= sm) {
@@ -101,7 +111,7 @@ int main(int argc, char *argv[]) {
       ans = it->first;
     }
   }
-  cout << ans << endl;
+  cout << ans;
   return 0;
 }
 ```
@@ -110,13 +120,15 @@ int main(int argc, char *argv[]) {
 
 ### 题目描述
 
-给一个m，n，接下来给出n个正整数表示邮票的面值，问可凑够面值m所需的最小邮票数，无法满足则输出0
+给定n种面值的邮票，问用这n种面值的邮票能不能凑够总面值m，如果能的话输出所需要的最少邮票个数，不能的话输出0。
+
+邮票的信息在文件`input3.txt`中给出，第一行给出m和n的值，第二行给出n种邮票的面值，将结果输出到标准输出。
 
 ```
-input：
+输入示例:
 10 3
 1 2 4
-output：
+输出示例:
 3
 ```
 
@@ -163,14 +175,14 @@ int main(int argc, char *argv[]) {
 
 ### 题目描述
 
-求两个字符串的最长公共子序列的长度
+求两个字符串的最长公共子序列的长度，字符串在文件`input4.txt`中给出，将结果输出到标准输出。
 
 ```
-input：
+输入示例:
 abcfac abcdfd
 programming contest
 abc mmp
-output:
+输出示例:
 4
 2
 0
