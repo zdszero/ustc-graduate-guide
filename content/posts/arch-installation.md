@@ -58,10 +58,8 @@ swapon /dev/swap分区文件
 
 ```
 mount /dev/linux根目录 /mnt
-mkdir /mnt/windows
-mount /dev/windows所在磁盘分区  /mnt/windows
-mkdir /mnt/boot
-mount /dev/EFI分区 /mnt/boot
+mkdir /mnt/efi
+mount /dev/EFI分区 /mnt/efi
 ```
 
 ### 选择镜像源
@@ -151,7 +149,7 @@ EDITOR=nvim visudo
 
 ```
 pacman -S grub efibootmgr intel-ucode(amd-ucode) os-prober ntfs-3g
-grub-install --target=x86_64-efi --efi-directory=/boot bootloader-id=grub
+grub-install --target=x86_64-efi --efi-directory=/efi bootloader-id=grub
 grub-mkconfig -o /boot/grub/grub.cfg
 # 检查引导是否安装成功，搜索menuentry
 nvim /boot/grub/grub.cfg
@@ -174,7 +172,6 @@ systemctl enable NetworkManager
 ```
 exit
 umount /mnt/boot
-umount /mnt/windows
 umount /mnt
 reboot
 ```
