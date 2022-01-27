@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
     <title type="text">Less is More</title>
     <subtitle type="html">MemE 是一个强大且可高度定制的 GoHugo 博客主题，专为个人博客设计。</subtitle>
-    <updated>2021-08-10T21:45:03&#43;08:00</updated>
+    <updated>2022-01-27T12:35:14&#43;08:00</updated>
     <id>https://zdszero.github.io/</id>
     <link rel="alternate" type="text/html" href="https://zdszero.github.io/" />
     <link rel="self" type="application/atom&#43;xml" href="https://zdszero.github.io/atom.xml" />
@@ -15,7 +15,7 @@
                 <email>dingzifeng8@gmail.com</email>
             </author>
     <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
-    <generator uri="https://gohugo.io/" version="0.86.0">Hugo</generator>
+    <generator uri="https://gohugo.io/" version="0.92.0">Hugo</generator>
         <entry>
             <title type="text">中科大2021年复试机试题详解</title>
             <link rel="alternate" type="text/html" href="https://zdszero.github.io/posts/ustc-test-2021/" />
@@ -114,7 +114,7 @@
 &lt;/div&gt;&lt;h2 id=&#34;第三题&#34;&gt;第三题&lt;/h2&gt;
 &lt;h3 id=&#34;题目描述-2&#34;&gt;题目描述&lt;/h3&gt;
 &lt;p&gt;从标准输入中读取四个正整数，判断只通过加法和乘法是否能够得到24点？如果可以话在标准输出中输出&amp;quot;YES&amp;quot;，否则输出&amp;quot;NO&amp;quot;。&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;输入示例:
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;输入示例:
 2 2 1 5
 输出示例:
 NO // (2+2) * (1+5) == 24 可以满足，但不允许使用括号
@@ -303,7 +303,7 @@ YES // 3*4 + 1*12
                 <content type="html">&lt;h2 id=&#34;第一题&#34;&gt;第一题&lt;/h2&gt;
 &lt;h3 id=&#34;题目描述&#34;&gt;题目描述&lt;/h3&gt;
 &lt;p&gt;从标准输入读取两个正整数，求这两个数的最大公约数。&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;输入示例:
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;输入示例:
 35 49
 输出示例:
 7
@@ -345,7 +345,7 @@ YES // 3*4 + 1*12
 &lt;/div&gt;&lt;h2 id=&#34;第二题&#34;&gt;第二题&lt;/h2&gt;
 &lt;h3 id=&#34;题目描述-1&#34;&gt;题目描述&lt;/h3&gt;
 &lt;p&gt;求长度为n的无序数组中第k大的数。数组从文件&lt;code&gt;array.in&lt;/code&gt;中读取，首先给出n和k，然后给出数组的n个元素。&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;输入示例:
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;输入示例:
 10 7
 6 2 20 99 37 100 33 28 78 44
 输出示例:
@@ -429,10 +429,10 @@ YES // 3*4 + 1*12
 &lt;/div&gt;&lt;h2 id=&#34;第三题&#34;&gt;第三题&lt;/h2&gt;
 &lt;h3 id=&#34;题目描述-2&#34;&gt;题目描述&lt;/h3&gt;
 &lt;p&gt;从文件&lt;code&gt;number.in&lt;/code&gt;中读取若干个正整数，求出它们最大的组合数，输出到标准输出中。&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;输入示例:
-123 456 782 78
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;输入示例:
+123 456 78 782 789
 输出示例:
-78782456123
+78978782456123
 &lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;解题思路-1&#34;&gt;解题思路&lt;/h3&gt;
 &lt;p&gt;将正整数当作字符串读入，然后对这些字符串进行排序，依次对字符串的高位数字进行比较，将高位数字较大的字符串排在前面。注意对长度不等的字符串的处理，比如&lt;code&gt;78&lt;/code&gt;和&lt;code&gt;782&lt;/code&gt;，应该组合为&lt;code&gt;78782&lt;/code&gt;而不是&lt;code&gt;78278&lt;/code&gt;。&lt;/p&gt;
 &lt;h3 id=&#34;代码-2&#34;&gt;代码&lt;/h3&gt;
@@ -462,6 +462,10 @@ YES // 3*4 + 1*12
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;22
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;23
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;24
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;25
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;26
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;27
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;28
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cpp&#34; data-lang=&#34;cpp&#34;&gt;&lt;span class=&#34;cp&#34;&gt;#include&lt;/span&gt; &lt;span class=&#34;cpf&#34;&gt;&amp;lt;algorithm&amp;gt;&lt;/span&gt;&lt;span class=&#34;cp&#34;&gt;
@@ -470,22 +474,26 @@ YES // 3*4 + 1*12
 &lt;/span&gt;&lt;span class=&#34;cp&#34;&gt;#include&lt;/span&gt; &lt;span class=&#34;cpf&#34;&gt;&amp;lt;vector&amp;gt;&lt;/span&gt;&lt;span class=&#34;cp&#34;&gt;
 &lt;/span&gt;&lt;span class=&#34;cp&#34;&gt;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;using&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;namespace&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;std&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
 
+&lt;span class=&#34;kt&#34;&gt;bool&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;cmp&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;string&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;l&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;string&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;r&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+  &lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;lsize&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;l&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;size&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt;
+  &lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;rsize&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;r&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;size&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt;
+  &lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;maxv&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;max&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;l&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;size&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(),&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;r&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;size&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;());&lt;/span&gt;
+  &lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;i&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;i&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;maxv&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;++&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+    &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;l&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;i&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;%&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;lsize&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;==&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;r&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;i&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;%&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;rsize&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;])&lt;/span&gt;
+      &lt;span class=&#34;k&#34;&gt;continue&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+    &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;l&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;i&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;%&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;lsize&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;r&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;i&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;%&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;rsize&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;];&lt;/span&gt;
+  &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+  &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;true&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;};&lt;/span&gt;
+
 &lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;main&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;argc&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;char&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;argv&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[])&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
   &lt;span class=&#34;n&#34;&gt;ifstream&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;ifs&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;./number.in&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
   &lt;span class=&#34;n&#34;&gt;vector&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;string&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;v&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
   &lt;span class=&#34;n&#34;&gt;string&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;s&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
-  &lt;span class=&#34;k&#34;&gt;while&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;ifs&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;s&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;v&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;push_back&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;s&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
-  &lt;span class=&#34;n&#34;&gt;sort&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;v&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;begin&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(),&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;v&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;end&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(),&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[](&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;string&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;l&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;string&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;r&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
-    &lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;minv&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;min&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;l&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;size&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(),&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;r&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;size&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;());&lt;/span&gt;
-    &lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;maxv&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;max&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;l&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;size&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(),&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;r&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;size&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;());&lt;/span&gt;
-    &lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;i&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;i&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;maxv&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;++&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
-      &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;l&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;i&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;%&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;minv&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;==&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;r&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;i&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;%&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;minv&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;])&lt;/span&gt;
-        &lt;span class=&#34;k&#34;&gt;continue&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
-      &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;l&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;i&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;%&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;minv&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;r&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;i&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;%&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;minv&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;];&lt;/span&gt;
-    &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
-    &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;true&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
-  &lt;span class=&#34;p&#34;&gt;});&lt;/span&gt;
-  &lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;auto&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&#34;nl&#34;&gt;s&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;v&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;cout&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;s&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+  &lt;span class=&#34;k&#34;&gt;while&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;ifs&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;s&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;v&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;push_back&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;s&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+  &lt;span class=&#34;n&#34;&gt;sort&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;v&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;begin&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(),&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;v&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;end&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(),&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;cmp&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+  &lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;auto&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&#34;nl&#34;&gt;s&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;v&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;cout&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;s&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
   &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
 &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
@@ -529,10 +537,10 @@ YES // 3*4 + 1*12
 &lt;h3 id=&#34;题目描述&#34;&gt;题目描述&lt;/h3&gt;
 &lt;p&gt;一个合法的身份证号码前17个数字加1位校验码组成。校验码的计算规则如下：&lt;/p&gt;
 &lt;p&gt;首先对前17位数字加权求和，权重分配为：{7，9，10，5，8，4，2，1，6，3，7，9，10，5，8，4，2}；然后将计算的和对11取模得到值&lt;code&gt;Z&lt;/code&gt;；最后按照以下关系对应&lt;code&gt;Z&lt;/code&gt;值与校验码&lt;code&gt;M&lt;/code&gt;的值：&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;Z：0 1 2 3 4 5 6 7 8 9 10
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Z：0 1 2 3 4 5 6 7 8 9 10
 M：1 0 X 9 8 7 6 5 4 3 2
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;现给定一个身份证号，从标准输入读取，判断该身份证是否合理，如果合理输出&amp;quot;YES&amp;quot;，如果不合理输出&amp;quot;NO&amp;quot;。&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;输入示例:
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;输入示例:
 37070419881216001X
 输出示例:
 YES
@@ -594,7 +602,7 @@ YES
 &lt;/div&gt;&lt;h2 id=&#34;第二题&#34;&gt;第二题&lt;/h2&gt;
 &lt;h3 id=&#34;题目描述-1&#34;&gt;题目描述&lt;/h3&gt;
 &lt;p&gt;判断给定的数字是否可以拆分为两个2的幂的和的形式，如果可以输出拆分方案，不能输出&amp;quot;NO&amp;quot;。&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;输入示例:
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;输入示例:
 5
 输出示例:
 5 = 2^0 + 2^1
@@ -657,7 +665,7 @@ NO
 &lt;/div&gt;&lt;h2 id=&#34;第三题&#34;&gt;第三题&lt;/h2&gt;
 &lt;h3 id=&#34;题目描述-2&#34;&gt;题目描述&lt;/h3&gt;
 &lt;p&gt;给出前缀式，只有加减乘除，求结果。前缀式从文件&lt;code&gt;pre.in&lt;/code&gt;中读取，将结果输出到标准输出中，题目保证输入的前缀式有效。&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;输入示例:
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;输入示例:
 - + 1 * + 2 3 4 5
 输出示例:
 16
@@ -747,7 +755,7 @@ NO
 &lt;/div&gt;&lt;h2 id=&#34;第四题&#34;&gt;第四题&lt;/h2&gt;
 &lt;h3 id=&#34;题目描述-3&#34;&gt;题目描述&lt;/h3&gt;
 &lt;p&gt;求集合的所有划分，集合从文件&lt;code&gt;set.in&lt;/code&gt;中读取，结果输出到标准输出中。&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;输入示例:
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;输入示例:
 a b c
 输出示例:
 {{a,b,c}}
@@ -868,7 +876,7 @@ a b c
 &lt;/div&gt;&lt;h2 id=&#34;第五题&#34;&gt;第五题&lt;/h2&gt;
 &lt;h3 id=&#34;题目描述-4&#34;&gt;题目描述&lt;/h3&gt;
 &lt;p&gt;给出一个二叉排序树的层次遍历，求从它的一个叶子结点到另一个叶子结点的路径，要求路径上经过结点的数值之和最大。二叉树的层次遍历序列从文件&lt;code&gt;expr.in&lt;/code&gt;中读取，结点数值大于0，将结果输出到标准输出中。&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;输入示例:
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;输入示例:
 25 15 40 5 20 30 50 10 35
 输出示例:
 165
@@ -1102,7 +1110,7 @@ a b c
 &lt;h3 id=&#34;题目描述-1&#34;&gt;题目描述&lt;/h3&gt;
 &lt;p&gt;文件&lt;code&gt;input2.txt&lt;/code&gt;中存储着机房中的m条签到记录，其中每条签到记录由学生的学号、签到时间、签退时间组成。若签退时间小于签到时间，则说明跨天。一人可以多次签到，但多次签到的时间没有重合。&lt;/p&gt;
 &lt;p&gt;文件&lt;code&gt;input2.txt&lt;/code&gt;中第一行是m，接下来是m行签到记录，要求给出在机房中停留时间最长的学生学号，并输出到标准输出。&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;输入示例:
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;输入示例:
 3
 SA0010001 13:00 16:39
 SA0010101 07:22 22:01
@@ -1209,7 +1217,7 @@ SA0010111
 &lt;h3 id=&#34;题目描述-2&#34;&gt;题目描述&lt;/h3&gt;
 &lt;p&gt;给定n种面值的邮票，问用这n种面值的邮票能不能凑够总面值m，如果能的话输出所需要的最少邮票个数，不能的话输出0。&lt;/p&gt;
 &lt;p&gt;邮票的信息在文件&lt;code&gt;input3.txt&lt;/code&gt;中给出，第一行给出m和n的值，第二行给出n种邮票的面值，将结果输出到标准输出。&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;输入示例:
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;输入示例:
 10 3
 1 2 4
 输出示例:
@@ -1284,7 +1292,7 @@ SA0010111
 &lt;/div&gt;&lt;h2 id=&#34;第四题&#34;&gt;第四题&lt;/h2&gt;
 &lt;h3 id=&#34;题目描述-3&#34;&gt;题目描述&lt;/h3&gt;
 &lt;p&gt;求两个字符串的最长公共子序列的长度，字符串在文件&lt;code&gt;input4.txt&lt;/code&gt;中给出，将结果输出到标准输出。&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;输入示例:
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;输入示例:
 abcfac abcdfd
 programming contest
 abc mmp
@@ -1433,7 +1441,7 @@ abc mmp
                 <content type="html">&lt;h2 id=&#34;第一题&#34;&gt;第一题&lt;/h2&gt;
 &lt;h3 id=&#34;题目描述&#34;&gt;题目描述&lt;/h3&gt;
 &lt;p&gt;文本文件&lt;code&gt;input1.txt&lt;/code&gt;中含有一行字符串（字符串长度不大于1000），由若干个英文单词构成，单词之间以一个或多个空格分割，请将该字符串中单词之间多余的空格删除，即单词之间只保留一个空格，字符串首尾的空格也删除，并将所有单词的首字母改成大写之后输出到屏幕。&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;输入
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;输入
 i  am  very nervous today      since i   will attend the C   programming
 输出
 I Am Very Nervous Today Since I Will Attend The C Programming
@@ -1581,7 +1589,7 @@ I Am Very Nervous Today Since I Will Attend The C Programming
 &lt;/div&gt;&lt;h2 id=&#34;第三题&#34;&gt;第三题&lt;/h2&gt;
 &lt;h3 id=&#34;题目描述-2&#34;&gt;题目描述&lt;/h3&gt;
 &lt;p&gt;文本文件&lt;code&gt;input3.txt&lt;/code&gt;中有一个有序的正整数序列，以空格作为间隔符。计算该序列中包含的最长等差子序列的长度，并输入，例如&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;输入：1 2 3 5 7 8 14 20 26
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;输入：1 2 3 5 7 8 14 20 26
 最长等差子序列：2 8 14 20 26
 输出：5
 &lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;解题思路-1&#34;&gt;解题思路&lt;/h3&gt;
@@ -1662,7 +1670,7 @@ I Am Very Nervous Today Since I Will Attend The C Programming
 &lt;h3 id=&#34;题目描述-3&#34;&gt;题目描述&lt;/h3&gt;
 &lt;p&gt;在文本文件&lt;code&gt;input4.txt&lt;/code&gt;中给定无向连通图G，判断图G是否存在这样一个顶点V，当V被删除时，该图的其他部分不再连通。如果存在，只需要找出一个这样的顶点，并输出顶点的编号，
 如果不存在，则输出&amp;quot;not exist&amp;quot;。&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;输入：
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;输入：
 5   // 表示顶点个数
 1 5 // 节点1和5之间有一条边
 2 3
@@ -1910,7 +1918,7 @@ I Am Very Nervous Today Since I Will Attend The C Programming
 &lt;li&gt;在红包金额固定的条件下，单个红包的金额随机生成。&lt;/li&gt;
 &lt;li&gt;在屏幕上输出红包分配结果。&lt;/li&gt;
 &lt;/ol&gt;
-&lt;pre&gt;&lt;code&gt;输入示例
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;输入示例
 100 5
 输出示例
 10.1  20  30.2  9.9  29.8
@@ -2037,7 +2045,7 @@ I Am Very Nervous Today Since I Will Attend The C Programming
 &lt;p&gt;给定一个二叉树的前序遍历和后序遍历，给出一种可能的中序遍历结果。
 输入从文件&lt;code&gt;4.in&lt;/code&gt;中给定。其中第一行是二叉树结点的个数，第二行是二叉树的前序遍历序列，第三行是后序遍历序列。二叉树种的结点名称以大写字母表示，最多26个结点。
 将结果输出到文件&lt;code&gt;4.out&lt;/code&gt;，输出一种可能的中序遍历结果。&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;输入示例
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;输入示例
 5
 A B D C E
 D B E C A
@@ -2190,7 +2198,7 @@ D B A E C
                 <content type="html">&lt;h2 id=&#34;第一题&#34;&gt;第一题&lt;/h2&gt;
 &lt;h3 id=&#34;题目描述&#34;&gt;题目描述&lt;/h3&gt;
 &lt;p&gt;输出 abcdefghij 任取 5 个字符所有组合，不能有重复，输出到控制台&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;格式：
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;格式：
 第 1 种组合：a,b,c,d,e
 第 n 种组合：....
 ......
@@ -2326,7 +2334,7 @@ D B A E C
 &lt;/div&gt;&lt;h2 id=&#34;第三题&#34;&gt;第三题&lt;/h2&gt;
 &lt;h3 id=&#34;题目描述-2&#34;&gt;题目描述&lt;/h3&gt;
 &lt;p&gt;输出树的层次遍历的奇数层的所有结点。从&lt;code&gt;input_3.txt&lt;/code&gt;输入，输出到&lt;code&gt;output_3.txt&lt;/code&gt;。&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;输入格式：
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;输入格式：
 A B C
 B E
 C F G
@@ -2492,7 +2500,7 @@ E   F   G
 &lt;/div&gt;&lt;h2 id=&#34;第四题&#34;&gt;第四题&lt;/h2&gt;
 &lt;h3 id=&#34;题目描述-3&#34;&gt;题目描述&lt;/h3&gt;
 &lt;p&gt;从文件&lt;code&gt;input_4.txt&lt;/code&gt;输入一个图，要求输出从1经过k到n的最短路径，可以有环，输出到文件&lt;code&gt;output_4.txt&lt;/code&gt;。&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;输入：
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;输入：
 n=5
 k=3
 1 2 10 5 30
@@ -2721,7 +2729,7 @@ k=3
 &lt;h2 id=&#34;第三题&#34;&gt;第三题&lt;/h2&gt;
 &lt;h3 id=&#34;题目描述-2&#34;&gt;题目描述&lt;/h3&gt;
 &lt;p&gt;给你一个数，要求你求出这个数与其反序数的和相加多少次才可以得到回文数。&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;给你 1568 
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;给你 1568 
  
 1568+8651=10219，不是回文字，继续， 
  
@@ -2843,7 +2851,7 @@ k=3
 &lt;/div&gt;&lt;h2 id=&#34;第四题&#34;&gt;第四题&lt;/h2&gt;
 &lt;h3 id=&#34;题目描述-3&#34;&gt;题目描述&lt;/h3&gt;
 &lt;p&gt;读取一个文件&lt;code&gt;graph.in&lt;/code&gt;，做无向图的广度遍历输出，文件的第一行是图的结点个数，后面是边的信息，&lt;code&gt;0 0&lt;/code&gt;表示结束，结点的编号从1开始，将广度遍历序列输出到控制台。&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;输入示例：
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;输入示例：
 4
 1 2
 1 4
@@ -2979,7 +2987,7 @@ k=3
 &lt;h2 id=&#34;第四题&#34;&gt;第四题&lt;/h2&gt;
 &lt;h3 id=&#34;题目描述-3&#34;&gt;题目描述&lt;/h3&gt;
 &lt;p&gt;在&lt;code&gt;4.in&lt;/code&gt;中有一个正整数，把这个正整数分解成两个质数的和的方案数输出到&lt;code&gt;4.out&lt;/code&gt;.&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;输入示例:
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;输入示例:
 10
 输出示例:
 2 （5+5=10  3+7=10   7+3和3+7是一个方案）
@@ -3037,7 +3045,7 @@ k=3
 &lt;/div&gt;&lt;h2 id=&#34;第五题&#34;&gt;第五题&lt;/h2&gt;
 &lt;h3 id=&#34;题目描述-4&#34;&gt;题目描述&lt;/h3&gt;
 &lt;p&gt;n皇后问题：n×n格的棋盘上放置彼此不受攻击的n个皇后。按照国际象棋的规则，皇后可以攻击与之处在同一行或同一列或同一斜线上的棋子。n后问题等价于在n×n的棋盘上放置n个皇后，任何2个皇后不妨在同一行或同一列或同一斜线上。在文件&lt;code&gt;5.in&lt;/code&gt;中给定棋盘的大小n，在文件&lt;code&gt;5.out&lt;/code&gt;中输出放置方法的个数。&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;输入示例:
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;输入示例:
 4
 输出示例:
 2
@@ -3129,7 +3137,7 @@ k=3
 &lt;/div&gt;&lt;h2 id=&#34;第六题&#34;&gt;第六题&lt;/h2&gt;
 &lt;h3 id=&#34;题目描述-5&#34;&gt;题目描述&lt;/h3&gt;
 &lt;p&gt;字符串匹配问题：在文件&lt;code&gt;6.in&lt;/code&gt;中有两个字符串，在文件&lt;code&gt;6.out&lt;/code&gt;输出第二个字符串在第一个字符串中的起始和终止位置，如果没有则输出0。&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;输入示例:
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;输入示例:
 abcdefgdrefege
 cdef
 输出示例:
@@ -3248,7 +3256,7 @@ cdef
 &lt;/div&gt;&lt;h2 id=&#34;第七题&#34;&gt;第七题&lt;/h2&gt;
 &lt;h3 id=&#34;题目描述-6&#34;&gt;题目描述&lt;/h3&gt;
 &lt;p&gt;哈弗曼树问题：在文件&lt;code&gt;7.in&lt;/code&gt;中有几个数，和为1，进行哈弗曼编码，并把编码结果输出到&lt;code&gt;7.out&lt;/code&gt;中。&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;输入示例:
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;输入示例:
 0.1 0.15 0.2 0.25 0.3
 输出示例:
 000
@@ -3435,7 +3443,7 @@ cdef
                 <content type="html">&lt;h2 id=&#34;第一题&#34;&gt;第一题&lt;/h2&gt;
 &lt;h3 id=&#34;题目描述&#34;&gt;题目描述&lt;/h3&gt;
 &lt;p&gt;字符串处理：从&lt;code&gt;string.in&lt;/code&gt;文件里读入两个字符串，字符串除了数字还可能包括&lt;code&gt;&#39;-&#39;、&#39;E&#39;、&#39;e&#39;、&#39;.&#39;&lt;/code&gt;，相加之后输出到文件&lt;code&gt;string.out&lt;/code&gt;中，如果是浮点型，要求用科学计数法表示（最多保留10个有效数字）。&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;输入示例:                       
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;输入示例:                       
 34.56                                
 2.45e2    
 
@@ -3501,7 +3509,7 @@ cdef
 &lt;/div&gt;&lt;h2 id=&#34;第二题&#34;&gt;第二题&lt;/h2&gt;
 &lt;h3 id=&#34;题目描述-1&#34;&gt;题目描述&lt;/h3&gt;
 &lt;p&gt;最大公约数：从&lt;code&gt;number.in&lt;/code&gt;文件中读入n个数，求出这n个数的最小值、最大值以及它们两的最大公约数，输出到文件&lt;code&gt;number.out&lt;/code&gt;中。number.in 中第一行为n，接下来为n个大于零的整数。&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;输入示例:
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;输入示例:
 3
 4 8 6
 
@@ -3567,7 +3575,7 @@ cdef
 &lt;/div&gt;&lt;h2 id=&#34;第三题&#34;&gt;第三题&lt;/h2&gt;
 &lt;h3 id=&#34;题目描述-2&#34;&gt;题目描述&lt;/h3&gt;
 &lt;p&gt;任务调度：从&lt;code&gt;task.in&lt;/code&gt;文件中读入任务调度序列，输出n个任务适合的一种调度方式到&lt;code&gt;task.out&lt;/code&gt;中。每行第一个表示前序任务，括号中的任务为后序任务，只有在前序任务完成的情况下，后序任务才能开始。若后序为NULL则表示无后序任务。&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;输入示例:
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;输入示例:
 Task0(Task1,Task2)
 Task1(Task3)
 Task2(NULL)
@@ -3728,7 +3736,7 @@ Task0 Task1 Task3 Task2
 &lt;/div&gt;&lt;h2 id=&#34;第四题&#34;&gt;第四题&lt;/h2&gt;
 &lt;h3 id=&#34;题目描述-3&#34;&gt;题目描述&lt;/h3&gt;
 &lt;p&gt;火车票订购：火车经过X站，火车的最大载客人数为m，有n个订票请求，请求订购从a站到b站的k张票，若能满足订购要求则输出1，否则输出0。数据从&lt;code&gt;ticket.in&lt;/code&gt;中输入，第一行有两个数字，分别是n，m。接下来有n行，每行三个数分别是a、b、k。结果输出到文件&lt;code&gt;ticket.out&lt;/code&gt;中。&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;输入示例:
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;输入示例:
 5 10
 4 10 9
 8 12 2
@@ -3816,7 +3824,7 @@ Task0 Task1 Task3 Task2
 &lt;/div&gt;&lt;h2 id=&#34;第五题&#34;&gt;第五题&lt;/h2&gt;
 &lt;h2 id=&#34;题目描述-4&#34;&gt;题目描述&lt;/h2&gt;
 &lt;p&gt;最短路径：有n个城市和m条道路（n &amp;lt; 1000, m &amp;lt; 10000），每条道路有不同的长度，请找到从起点s到终点t的最短距离，并且输出经过的城市的序号，如果有多条，输出字典序最小的那条；若从s到t没有路径，则输出“can&#39;t arrive”。从文件&lt;code&gt;road.in&lt;/code&gt;中读入数据，第一行有四个数，分别为n、m、s、t。接下来有m行，每行三个数，分别为两个城市的序号和相互之间的距离，将结果输出结果到文件&lt;code&gt;road.out&lt;/code&gt;中。&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;输入示例:
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;输入示例:
 3 3 1 3
 1 3 3
 1 2 1
@@ -3998,7 +4006,7 @@ Task0 Task1 Task3 Task2
 &lt;/div&gt;&lt;h2 id=&#34;第二题&#34;&gt;第二题&lt;/h2&gt;
 &lt;h3 id=&#34;题目描述-1&#34;&gt;题目描述&lt;/h3&gt;
 &lt;p&gt;一共有十二个球，其颜色有红、黄、黑三种，红黄黑分别有 x，y，k 个，现在从其中取出八个球，共有多少种取法，输出到文件中？（x，y，k 从键盘输入，同种颜色的球不区分）&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;输出格式;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;输出格式;
 1.  红球， 黄球， 黑球;
 2.  红球， 黄球， 黑球;
 3.
@@ -4135,7 +4143,7 @@ Task0 Task1 Task3 Task2
 &lt;/div&gt;&lt;h2 id=&#34;第四题&#34;&gt;第四题&lt;/h2&gt;
 &lt;h3 id=&#34;题目描述-3&#34;&gt;题目描述&lt;/h3&gt;
 &lt;p&gt;从文件&lt;code&gt;4.txt&lt;/code&gt;中读入一个二叉树，然后后序遍历该二叉树，将结果输出到文件&lt;code&gt;4.out&lt;/code&gt;。&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;输入格式：
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;输入格式：
 4 // 表示结点个数
 1 2 4 // 当前结点编号 左孩子编号 右孩子编号
 2 0 3
@@ -4280,7 +4288,7 @@ Task0 Task1 Task3 Task2
 &lt;li&gt;如果是&lt;code&gt;&amp;gt;&lt;/code&gt;，讲前面一个单词的首字符，进行大小写转化&lt;/li&gt;
 &lt;li&gt;如果是&lt;code&gt;数字&lt;/code&gt;，则不作任何操作&lt;/li&gt;
 &lt;/ol&gt;
-&lt;pre&gt;&lt;code&gt;输入示例:
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;输入示例:
 this is some &amp;gt; text!
 one plus one eqs 2
 this line should be deleted
@@ -4377,7 +4385,7 @@ prev line should be deleted
 &lt;h2 id=&#34;第三题&#34;&gt;第三题&lt;/h2&gt;
 &lt;h3 id=&#34;题目描述-2&#34;&gt;题目描述&lt;/h3&gt;
 &lt;p&gt;已知二叉排序树用二叉链表存储，结点的关键字为正整数。从键盘输入结点的关键字（以0表示结束）建立一棵二叉排序树，并输出其后序遍历序列。&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;输入示例：
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;输入示例：
 40 20 60 70 0
 
 输出示例：
@@ -4527,7 +4535,7 @@ prev line should be deleted
                 <content type="html">&lt;h2 id=&#34;题目一&#34;&gt;题目一&lt;/h2&gt;
 &lt;h3 id=&#34;题目描述&#34;&gt;题目描述&lt;/h3&gt;
 &lt;p&gt;输入0~65535之间的十进制数。进行如下处理：比如输入4，转化为16位二进制数0000 0000 0000 0100，4个一组，相异或，变为0001，然后把0001转化为十进制的1然后输出。&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;输入：4
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;输入：4
 输出：1
 &lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;代码&#34;&gt;代码&lt;/h3&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -4601,7 +4609,7 @@ prev line should be deleted
 &lt;/div&gt;&lt;h2 id=&#34;题目三&#34;&gt;题目三&lt;/h2&gt;
 &lt;h3 id=&#34;题目描述-2&#34;&gt;题目描述&lt;/h3&gt;
 &lt;p&gt;读入文件&lt;code&gt;tree.in&lt;/code&gt;中的二叉树先序序列，0表示叶子。中序输出深度≤depth/2的结点，其中depth是你所建立的树的深度。&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;输入示例：
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;输入示例：
 ABC00DE0000
 输出示例：
 B A
@@ -4790,7 +4798,7 @@ B A
 &lt;h2 id=&#34;题目四&#34;&gt;题目四&lt;/h2&gt;
 &lt;h3 id=&#34;题目描述-3&#34;&gt;题目描述&lt;/h3&gt;
 &lt;p&gt;字符串问题。从文件&lt;code&gt;4.in&lt;/code&gt;中读入几行英文句子。输出每个单词出现的个数，并且按照字典索引输出到控制台。&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;输入示例：
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;输入示例：
 I am
 a student from china
 china
@@ -4937,7 +4945,7 @@ student 2
 &lt;h3 id=&#34;题目描述-1&#34;&gt;题目描述&lt;/h3&gt;
 &lt;p&gt;队列的循环报数问题：设有n个人站成一排，从左往右的编号分别为1~n，现在从左往右报数“1,2,1,2....”，数到“1”的人出列，数到“2”的人立即站到队伍的最右端。报数过程反复进行，直到n个人都出列为止。要求给出它们的出列顺序。&lt;/p&gt;
 &lt;p&gt;n从键盘输入，出列顺序输出到控制台。&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;输入示例：
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;输入示例：
 10
 输出示例：
 1 3 5 7 9 2 6 10 8 4
@@ -5001,7 +5009,7 @@ student 2
 &lt;/div&gt;&lt;h2 id=&#34;题目三&#34;&gt;题目三&lt;/h2&gt;
 &lt;h3 id=&#34;题目描述-2&#34;&gt;题目描述&lt;/h3&gt;
 &lt;p&gt;无向图的最小生成树：输入在文件&lt;code&gt;3.in&lt;/code&gt;中给出，描述了图的形状。首先给出图中结点的总数n，结点编号从0到n-1，然后接下来每一行给出边的信息，每行包含三个数字，分别是两个顶点的编号以及边长。要求出无向图对应的最小生成树，将结果输出到文件&lt;code&gt;3.out&lt;/code&gt;中。&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;输入示例:
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;输入示例:
 9
 7      6    1 
 8      2    2 
@@ -5154,7 +5162,7 @@ student 2
 &lt;/div&gt;&lt;h2 id=&#34;题目四&#34;&gt;题目四&lt;/h2&gt;
 &lt;h3 id=&#34;题目描述-3&#34;&gt;题目描述&lt;/h3&gt;
 &lt;p&gt;中序后序得前序：输入在文件&lt;code&gt;4.in&lt;/code&gt;中给出，首先给出二叉树中的顶点个数&lt;code&gt;n&lt;/code&gt;，然后在接下来两行给出中序和后序序列，要求根据中序和后序序列构建二叉树，并且将二叉树的前序遍历序列输出到文件&lt;code&gt;4.out&lt;/code&gt;中。&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;输入示例:
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;输入示例:
 5
 D B A C E
 D B E C A
@@ -5363,7 +5371,7 @@ D B A C E
 &lt;/div&gt;&lt;h2 id=&#34;第三题&#34;&gt;第三题&lt;/h2&gt;
 &lt;h3 id=&#34;题目描述-2&#34;&gt;题目描述&lt;/h3&gt;
 &lt;p&gt;编写一程序，将中缀表达式转化为后缀表达式（含括号情况）。从&lt;code&gt;expr.in&lt;/code&gt;文件中读取输入，将结果输出到&lt;code&gt;expr.out&lt;/code&gt;文件中。&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;输入示例：
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;输入示例：
 a-b*(c+d)
 输出示例：
 abcd+*-
@@ -5483,7 +5491,7 @@ abcd+*-
 &lt;/div&gt;&lt;h2 id=&#34;第四题&#34;&gt;第四题&lt;/h2&gt;
 &lt;h3 id=&#34;题目描述-3&#34;&gt;题目描述&lt;/h3&gt;
 &lt;p&gt;给定两个数m和n，实现如下功能：如m=3，n=4时，输出&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;1 2 3
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;1 2 3
 1 2 4
 1 3 4
 2 3 4
@@ -5527,7 +5535,7 @@ abcd+*-
 &lt;/div&gt;&lt;h2 id=&#34;第五题&#34;&gt;第五题&lt;/h2&gt;
 &lt;h3 id=&#34;题目描述-4&#34;&gt;题目描述&lt;/h3&gt;
 &lt;p&gt;给定一无向图的矩阵存储，求其最大连通分量。图的信息存储在文件&lt;code&gt;graph.in&lt;/code&gt;中，文件的第一行给无向图的顶点数量n和边数k，顶点序号从0到n-1，接下来分别给出k条边的两个顶点号。输出无向图中的最大连通分量的所有顶点号，输出到文件&lt;code&gt;graph.out&lt;/code&gt;中。&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;输入示例:
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;输入示例:
 10 6
 0 1
 0 2
@@ -5651,7 +5659,7 @@ abcd+*-
 &lt;/div&gt;&lt;h2 id=&#34;第六题&#34;&gt;第六题&lt;/h2&gt;
 &lt;h3 id=&#34;题目描述-5&#34;&gt;题目描述&lt;/h3&gt;
 &lt;p&gt;求连续子数组的最大和，比如[-2,1,-3,4,-1,2,1,-5,4]中的连续子数组[4,-1,2,1]的和最大，为6。数组中的数字保存在文件&lt;code&gt;number.in&lt;/code&gt;中，求出结果输出到文件&lt;code&gt;number.out&lt;/code&gt;中。&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;输入示例:
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;输入示例:
 -2 1 -3 4 -1 2 1 -5 4
 
 输出示例:
@@ -5997,7 +6005,7 @@ ampersands and angle brackets. For example, this:&lt;/p&gt;
 &lt;p&gt;Regular Markdown syntax is not processed within code blocks. E.g.,
 asterisks are just literal asterisks within a code block. This means
 it&#39;s also easy to use Markdown to write about Markdown&#39;s own syntax.&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;tell application &amp;quot;Foo&amp;quot;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;tell application &amp;quot;Foo&amp;quot;
     beep
 end tell
 &lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;span-elements&#34;&gt;Span Elements&lt;/h2&gt;
@@ -6053,18 +6061,18 @@ normal paragraph. For example:&lt;/p&gt;
             
                 <content type="html">&lt;h2 id=&#34;连接网络&#34;&gt;连接网络&lt;/h2&gt;
 &lt;p&gt;首先需要开启&lt;code&gt;NetworkManager&lt;/code&gt;服务，再采用&lt;code&gt;nmtui&lt;/code&gt;连接网络&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;systemctl start NetworkManager
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;systemctl start NetworkManager
 systemctl enable NetworkManager
 nmcli dev wifi list
 nmtui
 &lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;创建交换文件&#34;&gt;创建交换文件&lt;/h2&gt;
 &lt;p&gt;如果在分区时没有创建&lt;code&gt;swap&lt;/code&gt;分区，可以在这一步创建交换文件，注意以下命令都以&lt;code&gt;root&lt;/code&gt;用户执行&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;dd if=/dev/zero of=/swapfile bs=1M count=2048 status=&amp;quot;progress&amp;quot;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;dd if=/dev/zero of=/swapfile bs=1M count=2048 status=&amp;quot;progress&amp;quot;
 chmod 600 /swapfile
 mkswap /swapfile
 swapon /swapfile
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;接着编辑&lt;code&gt;/etc/fstab&lt;/code&gt;文件，在末尾添加如下内容&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;/swapfile none swap defaults 0 0
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;/swapfile none swap defaults 0 0
 &lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;添加archlinuxcn源&#34;&gt;添加archlinuxcn源&lt;/h2&gt;
 &lt;p&gt;&lt;code&gt;archlinuxcn&lt;/code&gt;是一个由国人管理的package repository，其中包含一些日常所需的软件源，添加如下内容到&lt;code&gt;/etc/pacman.conf&lt;/code&gt;文件中&lt;/p&gt;
 &lt;h2 id=&#34;代理的设置&#34;&gt;代理的设置&lt;/h2&gt;
@@ -6072,7 +6080,7 @@ swapon /swapfile
 &lt;li&gt;chromium的代理设置&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;首先从terminal中启动chromium&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;export SOCKS_VERSION=5
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;export SOCKS_VERSION=5
 export SOCKS_SERVER=&#39;127.0.0.1:1080&#39;
 chromium
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;等完成google帐号的登陆以及同步后从dotfiles中恢复SwithyOmega的配置，就可以科学上网啦。&lt;/p&gt;
@@ -6082,70 +6090,70 @@ chromium
 &lt;p&gt;安装&lt;code&gt;proxychains-ng&lt;/code&gt;，然后编辑&#39;/etc/proxychains.conf&#39;进而设置代理。&lt;/p&gt;
 &lt;h2 id=&#34;图形界面的安装&#34;&gt;图形界面的安装&lt;/h2&gt;
 &lt;p&gt;首先安装X服务器&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;sudo pacman -S xorg xorg-server
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo pacman -S xorg xorg-server
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;启动图形界面有两种方式，一种是安装&lt;code&gt;xorg-init&lt;/code&gt;通过&lt;code&gt;xinit&lt;/code&gt;启动，另一种方式是通过&lt;code&gt;display manager&lt;/code&gt;来选择&lt;code&gt;xsession&lt;/code&gt;来进行启动。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;以DM的形式进行启动&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;如果是通过display manager的方式来进行图形界面的启动的话，可以选择安装sddm或者lightDM，并在系统服务中开启它们，重启后即可选择相应的&lt;code&gt;session&lt;/code&gt;进而启动图形界面。&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;sudo pacman -S sddm
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo pacman -S sddm
 sudo systemctl enable sddm
 &lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
 &lt;li&gt;以xinit的形式启动&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;首先安装&lt;code&gt;xorg-init&lt;/code&gt;，接着编辑&lt;code&gt;.xinitrc&lt;/code&gt;的内容，最后执行&lt;code&gt;startx&lt;/code&gt;来根据&lt;code&gt;.xinitrc&lt;/code&gt;中的内容来启动图形界面。&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;sudo pacman -S xorg-init
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo pacman -S xorg-init
 cp /etc/X11/xinit/xinitrc ~/.xinitrc
 &lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;用i3wm来定制你自己的desktop-enviroment&#34;&gt;用i3wm来定制你自己的desktop enviroment&lt;/h2&gt;
 &lt;p&gt;界面展示如下：&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://zdszero.github.io/images/demo.png&#34; alt=&#34;demo&#34;&gt;&lt;/p&gt;
 &lt;h3 id=&#34;wm-and-status-bar&#34;&gt;wm and status bar&lt;/h3&gt;
-&lt;pre&gt;&lt;code&gt;sudo pacman -S i3-gaps i3status-rust
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo pacman -S i3-gaps i3status-rust
 &lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;applets&#34;&gt;applets&lt;/h3&gt;
 &lt;p&gt;安装蓝牙模块&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;sudo pacman -S blueman
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo pacman -S blueman
 &lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;program-launcher&#34;&gt;program launcher&lt;/h3&gt;
 &lt;p&gt;使用rofi来启动应用程序&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;sudo pacman -S rofi papirus-icon-theme
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo pacman -S rofi papirus-icon-theme
 &lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;notification-manager&#34;&gt;notification manager&lt;/h3&gt;
 &lt;p&gt;使用dunst来管理应用通知&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;sudo pacman -S dunst
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo pacman -S dunst
 &lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;compositor&#34;&gt;compositor&lt;/h3&gt;
 &lt;p&gt;使用archlinuxcn源中的&lt;code&gt;compton-tryone-git&lt;/code&gt;来进行窗口渲染&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;sudo pacman -S compton-tryone-git
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo pacman -S compton-tryone-git
 &lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;screen-lock&#34;&gt;screen lock&lt;/h3&gt;
 &lt;p&gt;使用&lt;code&gt;beautifullockscreen&lt;/code&gt;来进行熄屏操作&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;pacman -S i3lock-color imagemagick feh xorg-xrandr xorg-xdpyinfo
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;pacman -S i3lock-color imagemagick feh xorg-xrandr xorg-xdpyinfo
 yay -S betterlockscreen
 &lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;tools&#34;&gt;tools&lt;/h3&gt;
-&lt;pre&gt;&lt;code&gt;flameshot -- screenshot
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;flameshot -- screenshot
 pcmanfm -- gui file manager
 libreoffice-still-zh-cn -- office
 font-manager -- font
 &lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;theme-config&#34;&gt;theme config&lt;/h3&gt;
 &lt;p&gt;我们需要对gtk应用和qt应用分别进行主题配置，以获得一致的显示效果&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;sudo pacman -S lxappreance # gtk应用的gui配置工具
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo pacman -S lxappreance # gtk应用的gui配置工具
 sudo pacman -S qt5ct # qt应用的gui配置工具
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;同时添加如下环境变量&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;QT_QPA_PLATFORMTHEME=qt5ct
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;QT_QPA_PLATFORMTHEME=qt5ct
 &lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;输入法&#34;&gt;输入法&lt;/h2&gt;
 &lt;p&gt;输入法应该安装最新的&lt;code&gt;fcitx5&lt;/code&gt;，安装以下包&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;sudo pacman -S fcitx5-im             # fcitx应用组
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo pacman -S fcitx5-im             # fcitx应用组
 sudo pacman -S fcitx5-chinese-addons # 中文输入法支持
 sudo pacman -S fcitx5-pinyin-zhwiki fcitx5-pinyin-moegirl # 中文字库
 sudo pacman -S fcitx5-material-color # 主题样式
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;如果使用&lt;code&gt;xinit&lt;/code&gt;启动，则在&lt;code&gt;.xinitrc&lt;/code&gt;中添加如下环境变量，如果使用&lt;code&gt;DM&lt;/code&gt;启动，在&lt;code&gt;.xprofile&lt;/code&gt;中添加&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;export INPUT_METHOD=fcitx5
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;export INPUT_METHOD=fcitx5
 export GTK_IM_MODULE=fcitx5
 export QT_IM_MODULE=fcitx5
 export XMODIFIERS=&amp;quot;@im=fcitx5&amp;quot;
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;设置完成后重新登录即可。&lt;/p&gt;
 &lt;h2 id=&#34;字体配置&#34;&gt;字体配置&lt;/h2&gt;
 &lt;p&gt;首先安装如下字体&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;sudo pacman -S ttf-jetbrains-mono nerd-fonts-jetbrains-mono ttf-symbola # st所需字体
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo pacman -S ttf-jetbrains-mono nerd-fonts-jetbrains-mono ttf-symbola # st所需字体
 sudo pacman -S noto-fonts noto-fonts-cjk noto-fonts-emoji # noto字体系列
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;再导入windows及自己收集的字体&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;mkdir /usr/share/fonts/myfonts
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;mkdir /usr/share/fonts/myfonts
 mkfontscale
 mkfontdir
 fc-cache
@@ -6186,14 +6194,14 @@ fc-cache
             
                 <content type="html">&lt;h2 id=&#34;安装前的准备&#34;&gt;安装前的准备&lt;/h2&gt;
 &lt;p&gt;将iso文件写入U盘，在linux中使用dd命令&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;dd if=iso文件路径 of=U盘对应的文件 status=&amp;quot;progress&amp;quot;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;dd if=iso文件路径 of=U盘对应的文件 status=&amp;quot;progress&amp;quot;
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;在windows中可以用rufus写入&lt;/p&gt;
 &lt;h2 id=&#34;安装过程&#34;&gt;安装过程&lt;/h2&gt;
 &lt;h3 id=&#34;设置启动顺序&#34;&gt;设置启动顺序&lt;/h3&gt;
 &lt;p&gt;在开机时根据电脑型号按动特定键进入bios，设置优先从U盘中启动，同时关闭secure boot，插入U盘后启动进入安装界面&lt;/p&gt;
 &lt;h3 id=&#34;检查引导方式&#34;&gt;检查引导方式&lt;/h3&gt;
 &lt;p&gt;现在的电脑一般支持UEFI，但是为了保险还是检查一下电脑的启动方式，这一步会影响到后续的分区以及boot loader的安装&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;ls /sys/firmware/efi/efivars
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;ls /sys/firmware/efi/efivars
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;如果结果显示&lt;code&gt;no such file or directory&lt;/code&gt;则说明电脑以EFI方式引导，否则说明电脑以BIOS方式引导&lt;/p&gt;
 &lt;h3 id=&#34;联网&#34;&gt;联网&lt;/h3&gt;
 &lt;ul&gt;
@@ -6202,56 +6210,56 @@ fc-cache
 &lt;li&gt;如果是无线网，可以使用&lt;code&gt;iwctl&lt;/code&gt;来进行网络连接，具体用法请查询&lt;a href=&#34;https://wiki.archlinux.org/index.php/Iwd_&#34;&gt;这个链接&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;更新系统时间&#34;&gt;更新系统时间&lt;/h3&gt;
-&lt;pre&gt;&lt;code&gt;timedatectl set-ntp true
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;timedatectl set-ntp true
 &lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;分区和格式化&#34;&gt;分区和格式化&lt;/h3&gt;
 &lt;p&gt;可以采用cfdisk或者fdisk来进行分区，注意如果电脑中本来就已经存在EFI分区的话，就不需要额外的引导分区了。&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;# 格式化EFI分区
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;# 格式化EFI分区
 mkfs.fat -F32 /dev/对应磁盘文件
 # 格式化swap分区
 mkswap /dev/swap分区文件
 swapon /dev/swap分区文件
 &lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;挂载分区&#34;&gt;挂载分区&lt;/h3&gt;
-&lt;pre&gt;&lt;code&gt;mount /dev/linux根目录 /mnt
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;mount /dev/linux根目录 /mnt
 mkdir /mnt/efi
 mount /dev/EFI分区 /mnt/efi
 &lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;选择镜像源&#34;&gt;选择镜像源&lt;/h3&gt;
-&lt;pre&gt;&lt;code&gt;vim /etc/pacman.conf
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;vim /etc/pacman.conf
 # 然后跳转编辑其中所引用的mirrowlist文件，将China对应的镜像源放到最前面，删除其他的镜像源
 &lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;安装基本包&#34;&gt;安装基本包&lt;/h3&gt;
 &lt;p&gt;注意在启动Arch Linux前必须安装一些网络管理的相关包，否则可能会导致在启动系统时连不上网的情况&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;pacstrap /mnt base base-devel linux linux-firmware neovim networkmanager
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;pacstrap /mnt base base-devel linux linux-firmware neovim networkmanager
 &lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;配置fstab&#34;&gt;配置fstab&lt;/h3&gt;
-&lt;pre&gt;&lt;code&gt;genfstab -U /mnt &amp;gt; /mnt/etc/fstab
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;genfstab -U /mnt &amp;gt; /mnt/etc/fstab
 # 验证是否正确
 cat /mnt/etc/fstab
 &lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;chroot&#34;&gt;chroot&lt;/h3&gt;
 &lt;p&gt;将操控权交给新系统，此时就已经进入你要安装arch linux的磁盘了，此时我们的操作都相当于新系统的root用户&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;arch-chroot /mnt
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;arch-chroot /mnt
 &lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;设置时区&#34;&gt;设置时区&lt;/h3&gt;
-&lt;pre&gt;&lt;code&gt;ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
 hwclock --systohc
 &lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;设置locale&#34;&gt;设置locale&lt;/h3&gt;
 &lt;p&gt;编辑&lt;code&gt;/etc/locale.gen&lt;/code&gt;文件，移除&lt;code&gt;en_GB.UTF-8&lt;/code&gt;前面的&lt;code&gt;#&lt;/code&gt;，然后执行命令&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;locale-gen
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;locale-gen
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;接着创建并编辑&lt;code&gt;/etc/locale.conf&lt;/code&gt;&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;LANG=en_GB-UTF-8
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;LANG=en_GB-UTF-8
 &lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;网络文件配置&#34;&gt;网络文件配置&lt;/h3&gt;
 &lt;p&gt;编辑&lt;code&gt;/etc/hostname&lt;/code&gt;文件&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;zds-pc
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;zds-pc
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;编辑&lt;code&gt;/etc/hosts&lt;/code&gt;文件&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;127.0.0.1   localhost
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;127.0.0.1   localhost
 ::1         localhost
 127.0.0.1   zds-pc.localdomain zds-pc
 &lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;设置root密码添加新用户&#34;&gt;设置root密码，添加新用户&lt;/h3&gt;
-&lt;pre&gt;&lt;code&gt;passwd
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;passwd
 useradd -m -G wheel zds
 passwd zds
 pacman -S sudo
 EDITOR=nvim visudo
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;接着找到如下内容取消注释&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;# %wheel ALL=(ALL)ALL
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;# %wheel ALL=(ALL)ALL
 &lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;安装bootloader&#34;&gt;安装bootloader&lt;/h3&gt;
-&lt;pre&gt;&lt;code&gt;pacman -S grub efibootmgr intel-ucode(amd-ucode) os-prober ntfs-3g
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;pacman -S grub efibootmgr intel-ucode(amd-ucode) os-prober ntfs-3g
 grub-install --target=x86_64-efi --efi-directory=/efi bootloader-id=grub
 grub-mkconfig -o /boot/grub/grub.cfg
 # 检查引导是否安装成功，搜索menuentry
@@ -6260,11 +6268,11 @@ nvim /boot/grub/grub.cfg
 ls /boot
 # 如果有initramfs-linux-fallback.img initramfs-linux.img intel-ucode.img vmlinuz-linux这几个文件，则说明没有问题
 &lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;启动系统服务&#34;&gt;启动系统服务&lt;/h3&gt;
-&lt;pre&gt;&lt;code&gt;systemctl disable netctl
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;systemctl disable netctl
 systemctl enable NetworkManager
 &lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;重启&#34;&gt;重启&lt;/h3&gt;
 &lt;p&gt;重启时拔掉U盘&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;exit
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;exit
 umount /mnt/boot
 umount /mnt
 reboot
@@ -6272,7 +6280,7 @@ reboot
 &lt;h3 id=&#34;安装显卡驱动&#34;&gt;安装显卡驱动&lt;/h3&gt;
 &lt;p&gt;请参考&lt;a href=&#34;https://wiki.archlinux.org/index.php/Xorg#Driver_installation&#34;&gt;这个网站&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;安装xorg和桌面环境&#34;&gt;安装xorg和桌面环境&lt;/h3&gt;
-&lt;pre&gt;&lt;code&gt;sudo pacman -S xorg xorg-server
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo pacman -S xorg xorg-server
 sudo pacman -S plasma kde-applications
 sudo pacman -S sddm
 systemctl enable sddm

@@ -1,5 +1,6 @@
 #! /bin/bash
 
+echo "Generate site"
 hugo -D
 git add .
 build_time=$(date +"%F %T")
