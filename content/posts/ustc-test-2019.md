@@ -254,70 +254,9 @@ int main(int argc, char *argv[]) {
 输入示例:
 25 15 40 5 20 30 50 10 35
 输出示例:
-165
+170
 ```
 
 ### 解题思路
 
-先通过递归遍历求出根节点到左子树叶结点所经过的最大结点数值之和a，然后求出根节点到右子树叶节点的最大结点数值之和b，a+b即为最终答案。
-
-### 代码
-
-```cpp
-#include <fstream>
-#include <iostream>
-using namespace std;
-
-struct TreeNode {
-  TreeNode *lchild, *rchild;
-  int val;
-  TreeNode(int val) : lchild(nullptr), rchild(nullptr), val(val) {}
-};
-
-TreeNode *root;
-
-void insertNode(int val) {
-  if (!root) {
-    root = new TreeNode(val);
-    return;
-  }
-  TreeNode *t = root, *pre;
-  while (t) {
-    pre = t;
-    if (val >= t->val)
-      t = t->rchild;
-    else
-      t = t->lchild;
-  }
-  if (val >= pre->val)
-    pre->rchild = new TreeNode(val);
-  else
-    pre->lchild = new TreeNode(val);
-}
-
-void dfs(TreeNode *t, int sum, int &max) {
-  if (!t) return;
-  if (!t->lchild && !t->rchild) {
-    if (sum + t->val > max) {
-      max = sum + t->val;
-      return;
-    }
-  }
-  if (t->rchild)
-    dfs(t->rchild, sum + t->val, max);
-  if (t->lchild)
-    dfs(t->lchild, sum + t->val, max);
-}
-
-int main(int argc, char *argv[]) {
-  ifstream ifs("./tree.in");
-  int num;
-  while (ifs >> num) insertNode(num);
-  int lhs_max = 0, rhs_max = 0;
-  dfs(root->lchild, 0, lhs_max);
-  dfs(root->rchild, 0, rhs_max);
-  int ans = root->val + lhs_max + rhs_max;
-  cout << ans;
-  return 0;
-}
-```
+谢谢[anyin233](https://github.com/anyin233)同学的提醒，这里我原来提供的解法是错误的，最长路径不一定要经过根结点。这里请参考[anyin233同学的解答](https://anyin233.github.io/2022/03/02/%E4%B8%AD%E7%A7%91%E5%A4%A72019-5/)。

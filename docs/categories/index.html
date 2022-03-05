@@ -3,7 +3,10 @@
     <head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article#">
     <meta charset="UTF-8" />
 
-    <meta name="generator" content="Hugo 0.92.0" /><meta name="theme-color" content="#fff" />
+    <meta name="generator" content="Hugo 0.92.1" /><meta name="theme-color" content="#fff" />
+    <meta name="color-scheme" content="light dark">
+
+    
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
     <meta name="format-detection" content="telephone=no, date=no, address=no, email=no" />
@@ -14,7 +17,7 @@
 
     <title>Categories | Less is More</title>
 
-    <link rel="stylesheet" href="/css/meme.min.2848bafd673be3fb7ed6d0d6ebeda025a4b0b42b8bd89be521ded36fdcd9157e.css"/>
+    <link rel="stylesheet" href="/css/meme.min.edb0b7a136d68a9f8245ddfbb9cf3721cb01738b1bdab192df6239d382e3c087.css"/>
 
     
     
@@ -250,7 +253,10 @@
     <script src="https://cdn.jsdelivr.net/npm/medium-zoom@latest/dist/medium-zoom.min.js"></script>
 
 <script>
-    mediumZoom(document.querySelectorAll('div.post-body img'), {
+    let imgNodes = document.querySelectorAll('div.post-body img');
+    imgNodes = Array.from(imgNodes).filter(node => node.parentNode.tagName !== "A");
+
+    mediumZoom(imgNodes, {
         background: 'hsla(var(--color-bg-h), var(--color-bg-s), var(--color-bg-l), 0.95)'
     })
 </script>
