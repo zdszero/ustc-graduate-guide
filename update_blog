@@ -5,4 +5,4 @@ hugo -D
 git add .
 build_time=$(date +"%F %T")
 git commit -m "rebuild site on $build_time"
-git push origin master
+proxychains git push origin master
