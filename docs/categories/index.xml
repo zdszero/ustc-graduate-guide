@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Less is More</title>
-    <link>https://zdszero.github.io/categories/</link>
+    <link>https://zdszero.github.io/ustc-graduate-guide/categories/</link>
     <description>Recent content in Categories on Less is More</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
@@ -10,7 +10,7 @@
     <webMaster>dingzifeng8@gmail.com (zds)</webMaster>
     <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
     
-	<atom:link href="https://zdszero.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://zdszero.github.io/ustc-graduate-guide/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

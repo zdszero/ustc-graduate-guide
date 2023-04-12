@@ -8,7 +8,7 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Less is More</title>
-        <link>https://zdszero.github.io/</link>
+        <link>https://zdszero.github.io/ustc-graduate-guide/</link>
         <description>MemE 是一个强大且可高度定制的 GoHugo 博客主题，专为个人博客设计。</description>
         <generator>Hugo 0.68.3 https://gohugo.io/</generator>
         
@@ -23,15 +23,15 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
         
-        <lastBuildDate>Wed, 05 Oct 2022 15:05:33 &#43;0800</lastBuildDate>
+        <lastBuildDate>Wed, 12 Apr 2023 18:54:47 &#43;0800</lastBuildDate>
         
-            <atom:link rel="self" type="application/rss&#43;xml" href="https://zdszero.github.io/rss.xml" />
+            <atom:link rel="self" type="application/rss&#43;xml" href="https://zdszero.github.io/ustc-graduate-guide/rss.xml" />
         
         
             <item>
                 <title>中科大2021年复试机试题详解</title>
-                <link>https://zdszero.github.io/posts/ustc-test-2021/</link>
-                <guid isPermaLink="true">https://zdszero.github.io/posts/ustc-test-2021/</guid>
+                <link>https://zdszero.github.io/ustc-graduate-guide/posts/ustc-test-2021/</link>
+                <guid isPermaLink="true">https://zdszero.github.io/ustc-graduate-guide/posts/ustc-test-2021/</guid>
                 <pubDate>Fri, 21 May 2021 12:00:00 &#43;0000</pubDate>
                 
                     <author>dingzifeng8@gmail.com (zds)</author>
@@ -288,7 +288,7 @@ YES // 3*4 + 1*12
                                 
                                 
                                 
-                                    <category domain="https://zdszero.github.io/tags/%E4%B8%AD%E7%A7%91%E5%A4%A7%E5%A4%8D%E8%AF%95/">中科大复试</category>
+                                    <category domain="https://zdszero.github.io/ustc-graduate-guide/tags/%E4%B8%AD%E7%A7%91%E5%A4%A7%E5%A4%8D%E8%AF%95/">中科大复试</category>
                                 
                             
                         
@@ -298,8 +298,8 @@ YES // 3*4 + 1*12
         
             <item>
                 <title>中科大2020年复试机试题详解</title>
-                <link>https://zdszero.github.io/posts/ustc-test-2020/</link>
-                <guid isPermaLink="true">https://zdszero.github.io/posts/ustc-test-2020/</guid>
+                <link>https://zdszero.github.io/ustc-graduate-guide/posts/ustc-test-2020/</link>
+                <guid isPermaLink="true">https://zdszero.github.io/ustc-graduate-guide/posts/ustc-test-2020/</guid>
                 <pubDate>Thu, 20 May 2021 12:00:00 &#43;0000</pubDate>
                 
                     <author>dingzifeng8@gmail.com (zds)</author>
@@ -518,7 +518,7 @@ YES // 3*4 + 1*12
                                 
                                 
                                 
-                                    <category domain="https://zdszero.github.io/tags/%E4%B8%AD%E7%A7%91%E5%A4%A7%E5%A4%8D%E8%AF%95/">中科大复试</category>
+                                    <category domain="https://zdszero.github.io/ustc-graduate-guide/tags/%E4%B8%AD%E7%A7%91%E5%A4%A7%E5%A4%8D%E8%AF%95/">中科大复试</category>
                                 
                             
                         
@@ -528,8 +528,8 @@ YES // 3*4 + 1*12
         
             <item>
                 <title>中科大2019年复试机试题详解</title>
-                <link>https://zdszero.github.io/posts/ustc-test-2019/</link>
-                <guid isPermaLink="true">https://zdszero.github.io/posts/ustc-test-2019/</guid>
+                <link>https://zdszero.github.io/ustc-graduate-guide/posts/ustc-test-2019/</link>
+                <guid isPermaLink="true">https://zdszero.github.io/ustc-graduate-guide/posts/ustc-test-2019/</guid>
                 <pubDate>Wed, 19 May 2021 12:00:00 &#43;0000</pubDate>
                 
                     <author>dingzifeng8@gmail.com (zds)</author>
@@ -899,7 +899,7 @@ a b c
                                 
                                 
                                 
-                                    <category domain="https://zdszero.github.io/tags/%E4%B8%AD%E7%A7%91%E5%A4%A7%E5%A4%8D%E8%AF%95/">中科大复试</category>
+                                    <category domain="https://zdszero.github.io/ustc-graduate-guide/tags/%E4%B8%AD%E7%A7%91%E5%A4%A7%E5%A4%8D%E8%AF%95/">中科大复试</category>
                                 
                             
                         
@@ -909,8 +909,8 @@ a b c
         
             <item>
                 <title>中科大2018年复试机试题详解</title>
-                <link>https://zdszero.github.io/posts/ustc-test-2018/</link>
-                <guid isPermaLink="true">https://zdszero.github.io/posts/ustc-test-2018/</guid>
+                <link>https://zdszero.github.io/ustc-graduate-guide/posts/ustc-test-2018/</link>
+                <guid isPermaLink="true">https://zdszero.github.io/ustc-graduate-guide/posts/ustc-test-2018/</guid>
                 <pubDate>Tue, 18 May 2021 12:00:00 &#43;0000</pubDate>
                 
                     <author>dingzifeng8@gmail.com (zds)</author>
@@ -1298,7 +1298,7 @@ abc mmp
                                 
                                 
                                 
-                                    <category domain="https://zdszero.github.io/tags/%E4%B8%AD%E7%A7%91%E5%A4%A7%E5%A4%8D%E8%AF%95/">中科大复试</category>
+                                    <category domain="https://zdszero.github.io/ustc-graduate-guide/tags/%E4%B8%AD%E7%A7%91%E5%A4%A7%E5%A4%8D%E8%AF%95/">中科大复试</category>
                                 
                             
                         
@@ -1308,8 +1308,8 @@ abc mmp
         
             <item>
                 <title>中科大2017年复试机试题详解</title>
-                <link>https://zdszero.github.io/posts/ustc-test-2017/</link>
-                <guid isPermaLink="true">https://zdszero.github.io/posts/ustc-test-2017/</guid>
+                <link>https://zdszero.github.io/ustc-graduate-guide/posts/ustc-test-2017/</link>
+                <guid isPermaLink="true">https://zdszero.github.io/ustc-graduate-guide/posts/ustc-test-2017/</guid>
                 <pubDate>Mon, 17 May 2021 12:00:00 &#43;0000</pubDate>
                 
                     <author>dingzifeng8@gmail.com (zds)</author>
@@ -1716,7 +1716,7 @@ I Am Very Nervous Today Since I Will Attend The C Programming
                                 
                                 
                                 
-                                    <category domain="https://zdszero.github.io/tags/%E4%B8%AD%E7%A7%91%E5%A4%A7%E5%A4%8D%E8%AF%95/">中科大复试</category>
+                                    <category domain="https://zdszero.github.io/ustc-graduate-guide/tags/%E4%B8%AD%E7%A7%91%E5%A4%A7%E5%A4%8D%E8%AF%95/">中科大复试</category>
                                 
                             
                         
@@ -1726,8 +1726,8 @@ I Am Very Nervous Today Since I Will Attend The C Programming
         
             <item>
                 <title>中科大2016年复试机试题详解</title>
-                <link>https://zdszero.github.io/posts/ustc-test-2016/</link>
-                <guid isPermaLink="true">https://zdszero.github.io/posts/ustc-test-2016/</guid>
+                <link>https://zdszero.github.io/ustc-graduate-guide/posts/ustc-test-2016/</link>
+                <guid isPermaLink="true">https://zdszero.github.io/ustc-graduate-guide/posts/ustc-test-2016/</guid>
                 <pubDate>Sun, 16 May 2021 12:00:00 &#43;0000</pubDate>
                 
                     <author>dingzifeng8@gmail.com (zds)</author>
@@ -2049,7 +2049,7 @@ D B A E C
                                 
                                 
                                 
-                                    <category domain="https://zdszero.github.io/tags/%E4%B8%AD%E7%A7%91%E5%A4%A7%E5%A4%8D%E8%AF%95/">中科大复试</category>
+                                    <category domain="https://zdszero.github.io/ustc-graduate-guide/tags/%E4%B8%AD%E7%A7%91%E5%A4%A7%E5%A4%8D%E8%AF%95/">中科大复试</category>
                                 
                             
                         
@@ -2059,8 +2059,8 @@ D B A E C
         
             <item>
                 <title>中科大2015年复试机试题详解</title>
-                <link>https://zdszero.github.io/posts/ustc-test-2015/</link>
-                <guid isPermaLink="true">https://zdszero.github.io/posts/ustc-test-2015/</guid>
+                <link>https://zdszero.github.io/ustc-graduate-guide/posts/ustc-test-2015/</link>
+                <guid isPermaLink="true">https://zdszero.github.io/ustc-graduate-guide/posts/ustc-test-2015/</guid>
                 <pubDate>Sat, 15 May 2021 12:00:00 &#43;0000</pubDate>
                 
                     <author>dingzifeng8@gmail.com (zds)</author>
@@ -2518,7 +2518,7 @@ k=3
                                 
                                 
                                 
-                                    <category domain="https://zdszero.github.io/tags/%E4%B8%AD%E7%A7%91%E5%A4%A7%E5%A4%8D%E8%AF%95/">中科大复试</category>
+                                    <category domain="https://zdszero.github.io/ustc-graduate-guide/tags/%E4%B8%AD%E7%A7%91%E5%A4%A7%E5%A4%8D%E8%AF%95/">中科大复试</category>
                                 
                             
                         
@@ -2528,8 +2528,8 @@ k=3
         
             <item>
                 <title>中科大2014年复试机试题详解</title>
-                <link>https://zdszero.github.io/posts/ustc-test-2014/</link>
-                <guid isPermaLink="true">https://zdszero.github.io/posts/ustc-test-2014/</guid>
+                <link>https://zdszero.github.io/ustc-graduate-guide/posts/ustc-test-2014/</link>
+                <guid isPermaLink="true">https://zdszero.github.io/ustc-graduate-guide/posts/ustc-test-2014/</guid>
                 <pubDate>Fri, 14 May 2021 12:00:00 &#43;0000</pubDate>
                 
                     <author>dingzifeng8@gmail.com (zds)</author>
@@ -2822,7 +2822,7 @@ k=3
                                 
                                 
                                 
-                                    <category domain="https://zdszero.github.io/tags/%E4%B8%AD%E7%A7%91%E5%A4%A7%E5%A4%8D%E8%AF%95/">中科大复试</category>
+                                    <category domain="https://zdszero.github.io/ustc-graduate-guide/tags/%E4%B8%AD%E7%A7%91%E5%A4%A7%E5%A4%8D%E8%AF%95/">中科大复试</category>
                                 
                             
                         
@@ -2832,8 +2832,8 @@ k=3
         
             <item>
                 <title>中科大2013年复试机试题详解</title>
-                <link>https://zdszero.github.io/posts/ustc-test-2013/</link>
-                <guid isPermaLink="true">https://zdszero.github.io/posts/ustc-test-2013/</guid>
+                <link>https://zdszero.github.io/ustc-graduate-guide/posts/ustc-test-2013/</link>
+                <guid isPermaLink="true">https://zdszero.github.io/ustc-graduate-guide/posts/ustc-test-2013/</guid>
                 <pubDate>Thu, 13 May 2021 12:00:00 &#43;0000</pubDate>
                 
                     <author>dingzifeng8@gmail.com (zds)</author>
@@ -3285,7 +3285,7 @@ cdef
                                 
                                 
                                 
-                                    <category domain="https://zdszero.github.io/tags/%E4%B8%AD%E7%A7%91%E5%A4%A7%E5%A4%8D%E8%AF%95/">中科大复试</category>
+                                    <category domain="https://zdszero.github.io/ustc-graduate-guide/tags/%E4%B8%AD%E7%A7%91%E5%A4%A7%E5%A4%8D%E8%AF%95/">中科大复试</category>
                                 
                             
                         
@@ -3295,8 +3295,8 @@ cdef
         
             <item>
                 <title>中科大2012年复试机试题详解</title>
-                <link>https://zdszero.github.io/posts/ustc-test-2012/</link>
-                <guid isPermaLink="true">https://zdszero.github.io/posts/ustc-test-2012/</guid>
+                <link>https://zdszero.github.io/ustc-graduate-guide/posts/ustc-test-2012/</link>
+                <guid isPermaLink="true">https://zdszero.github.io/ustc-graduate-guide/posts/ustc-test-2012/</guid>
                 <pubDate>Wed, 12 May 2021 12:00:00 &#43;0000</pubDate>
                 
                     <author>dingzifeng8@gmail.com (zds)</author>
@@ -3797,7 +3797,7 @@ Task0 Task1 Task3 Task2
                                 
                                 
                                 
-                                    <category domain="https://zdszero.github.io/tags/%E4%B8%AD%E7%A7%91%E5%A4%A7%E5%A4%8D%E8%AF%95/">中科大复试</category>
+                                    <category domain="https://zdszero.github.io/ustc-graduate-guide/tags/%E4%B8%AD%E7%A7%91%E5%A4%A7%E5%A4%8D%E8%AF%95/">中科大复试</category>
                                 
                             
                         
@@ -3807,8 +3807,8 @@ Task0 Task1 Task3 Task2
         
             <item>
                 <title>中科大2011年复试机试题详解</title>
-                <link>https://zdszero.github.io/posts/ustc-test-2011/</link>
-                <guid isPermaLink="true">https://zdszero.github.io/posts/ustc-test-2011/</guid>
+                <link>https://zdszero.github.io/ustc-graduate-guide/posts/ustc-test-2011/</link>
+                <guid isPermaLink="true">https://zdszero.github.io/ustc-graduate-guide/posts/ustc-test-2011/</guid>
                 <pubDate>Tue, 11 May 2021 12:00:00 &#43;0000</pubDate>
                 
                     <author>dingzifeng8@gmail.com (zds)</author>
@@ -4117,7 +4117,7 @@ Task0 Task1 Task3 Task2
                                 
                                 
                                 
-                                    <category domain="https://zdszero.github.io/tags/%E4%B8%AD%E7%A7%91%E5%A4%A7%E5%A4%8D%E8%AF%95/">中科大复试</category>
+                                    <category domain="https://zdszero.github.io/ustc-graduate-guide/tags/%E4%B8%AD%E7%A7%91%E5%A4%A7%E5%A4%8D%E8%AF%95/">中科大复试</category>
                                 
                             
                         
@@ -4127,8 +4127,8 @@ Task0 Task1 Task3 Task2
         
             <item>
                 <title>中科大2010年复试机试题详解</title>
-                <link>https://zdszero.github.io/posts/ustc-test-2010/</link>
-                <guid isPermaLink="true">https://zdszero.github.io/posts/ustc-test-2010/</guid>
+                <link>https://zdszero.github.io/ustc-graduate-guide/posts/ustc-test-2010/</link>
+                <guid isPermaLink="true">https://zdszero.github.io/ustc-graduate-guide/posts/ustc-test-2010/</guid>
                 <pubDate>Mon, 10 May 2021 12:00:00 &#43;0000</pubDate>
                 
                     <author>dingzifeng8@gmail.com (zds)</author>
@@ -4368,7 +4368,7 @@ prev line should be deleted
                                 
                                 
                                 
-                                    <category domain="https://zdszero.github.io/tags/%E4%B8%AD%E7%A7%91%E5%A4%A7%E5%A4%8D%E8%AF%95/">中科大复试</category>
+                                    <category domain="https://zdszero.github.io/ustc-graduate-guide/tags/%E4%B8%AD%E7%A7%91%E5%A4%A7%E5%A4%8D%E8%AF%95/">中科大复试</category>
                                 
                             
                         
@@ -4378,8 +4378,8 @@ prev line should be deleted
         
             <item>
                 <title>中科大2009年复试机试题详解</title>
-                <link>https://zdszero.github.io/posts/ustc-test-2009/</link>
-                <guid isPermaLink="true">https://zdszero.github.io/posts/ustc-test-2009/</guid>
+                <link>https://zdszero.github.io/ustc-graduate-guide/posts/ustc-test-2009/</link>
+                <guid isPermaLink="true">https://zdszero.github.io/ustc-graduate-guide/posts/ustc-test-2009/</guid>
                 <pubDate>Sun, 09 May 2021 12:00:00 &#43;0000</pubDate>
                 
                     <author>dingzifeng8@gmail.com (zds)</author>
@@ -4586,7 +4586,7 @@ B A
                                 
                                 
                                 
-                                    <category domain="https://zdszero.github.io/tags/%E4%B8%AD%E7%A7%91%E5%A4%A7%E5%A4%8D%E8%AF%95/">中科大复试</category>
+                                    <category domain="https://zdszero.github.io/ustc-graduate-guide/tags/%E4%B8%AD%E7%A7%91%E5%A4%A7%E5%A4%8D%E8%AF%95/">中科大复试</category>
                                 
                             
                         
@@ -4596,8 +4596,8 @@ B A
         
             <item>
                 <title>中科大2008年复试机试题详解</title>
-                <link>https://zdszero.github.io/posts/ustc-test-2008/</link>
-                <guid isPermaLink="true">https://zdszero.github.io/posts/ustc-test-2008/</guid>
+                <link>https://zdszero.github.io/ustc-graduate-guide/posts/ustc-test-2008/</link>
+                <guid isPermaLink="true">https://zdszero.github.io/ustc-graduate-guide/posts/ustc-test-2008/</guid>
                 <pubDate>Sat, 08 May 2021 12:00:00 &#43;0000</pubDate>
                 
                     <author>dingzifeng8@gmail.com (zds)</author>
@@ -4717,7 +4717,7 @@ student 2
                                 
                                 
                                 
-                                    <category domain="https://zdszero.github.io/tags/%E4%B8%AD%E7%A7%91%E5%A4%A7%E5%A4%8D%E8%AF%95/">中科大复试</category>
+                                    <category domain="https://zdszero.github.io/ustc-graduate-guide/tags/%E4%B8%AD%E7%A7%91%E5%A4%A7%E5%A4%8D%E8%AF%95/">中科大复试</category>
                                 
                             
                         
@@ -4727,8 +4727,8 @@ student 2
         
             <item>
                 <title>中科大2007年复试机试题详解</title>
-                <link>https://zdszero.github.io/posts/ustc-test-2007/</link>
-                <guid isPermaLink="true">https://zdszero.github.io/posts/ustc-test-2007/</guid>
+                <link>https://zdszero.github.io/ustc-graduate-guide/posts/ustc-test-2007/</link>
+                <guid isPermaLink="true">https://zdszero.github.io/ustc-graduate-guide/posts/ustc-test-2007/</guid>
                 <pubDate>Fri, 07 May 2021 12:00:00 &#43;0000</pubDate>
                 
                     <author>dingzifeng8@gmail.com (zds)</author>
@@ -5140,7 +5140,7 @@ D B A C E
                                 
                                 
                                 
-                                    <category domain="https://zdszero.github.io/tags/%E4%B8%AD%E7%A7%91%E5%A4%A7%E5%A4%8D%E8%AF%95/">中科大复试</category>
+                                    <category domain="https://zdszero.github.io/ustc-graduate-guide/tags/%E4%B8%AD%E7%A7%91%E5%A4%A7%E5%A4%8D%E8%AF%95/">中科大复试</category>
                                 
                             
                         
@@ -5150,8 +5150,8 @@ D B A C E
         
             <item>
                 <title>中科大2006年复试机试题详解</title>
-                <link>https://zdszero.github.io/posts/ustc-test-2006/</link>
-                <guid isPermaLink="true">https://zdszero.github.io/posts/ustc-test-2006/</guid>
+                <link>https://zdszero.github.io/ustc-graduate-guide/posts/ustc-test-2006/</link>
+                <guid isPermaLink="true">https://zdszero.github.io/ustc-graduate-guide/posts/ustc-test-2006/</guid>
                 <pubDate>Thu, 06 May 2021 12:00:00 &#43;0000</pubDate>
                 
                     <author>dingzifeng8@gmail.com (zds)</author>
@@ -5574,7 +5574,7 @@ $$&lt;/div&gt;
                                 
                                 
                                 
-                                    <category domain="https://zdszero.github.io/tags/%E4%B8%AD%E7%A7%91%E5%A4%A7%E5%A4%8D%E8%AF%95/">中科大复试</category>
+                                    <category domain="https://zdszero.github.io/ustc-graduate-guide/tags/%E4%B8%AD%E7%A7%91%E5%A4%A7%E5%A4%8D%E8%AF%95/">中科大复试</category>
                                 
                             
                         
@@ -5584,8 +5584,8 @@ $$&lt;/div&gt;
         
             <item>
                 <title>Markdown Test</title>
-                <link>https://zdszero.github.io/posts/markdown-test/</link>
-                <guid isPermaLink="true">https://zdszero.github.io/posts/markdown-test/</guid>
+                <link>https://zdszero.github.io/ustc-graduate-guide/posts/markdown-test/</link>
+                <guid isPermaLink="true">https://zdszero.github.io/ustc-graduate-guide/posts/markdown-test/</guid>
                 <pubDate>Tue, 23 Feb 2021 12:00:00 &#43;0000</pubDate>
                 
                     <author>dingzifeng8@gmail.com (zds)</author>
@@ -5594,40 +5594,40 @@ $$&lt;/div&gt;
                 
                     <description>&lt;h1 id=&#34;markdown-syntax&#34;&gt;Markdown: Syntax&lt;/h1&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://zdszero.github.io/posts/markdown-test/#overview&#34;&gt;Overview&lt;/a&gt;
+&lt;li&gt;&lt;a href=&#34;https://zdszero.github.io/ustc-graduate-guide/posts/markdown-test/#overview&#34;&gt;Overview&lt;/a&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://zdszero.github.io/posts/markdown-test/#philosophy&#34;&gt;Philosophy&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://zdszero.github.io/posts/markdown-test/#html&#34;&gt;Inline HTML&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://zdszero.github.io/posts/markdown-test/#autoescape&#34;&gt;Automatic Escaping for Special Characters&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://zdszero.github.io/ustc-graduate-guide/posts/markdown-test/#philosophy&#34;&gt;Philosophy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://zdszero.github.io/ustc-graduate-guide/posts/markdown-test/#html&#34;&gt;Inline HTML&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://zdszero.github.io/ustc-graduate-guide/posts/markdown-test/#autoescape&#34;&gt;Automatic Escaping for Special Characters&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://zdszero.github.io/posts/markdown-test/#block&#34;&gt;Block Elements&lt;/a&gt;
+&lt;li&gt;&lt;a href=&#34;https://zdszero.github.io/ustc-graduate-guide/posts/markdown-test/#block&#34;&gt;Block Elements&lt;/a&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://zdszero.github.io/posts/markdown-test/#p&#34;&gt;Paragraphs and Line Breaks&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://zdszero.github.io/posts/markdown-test/#header&#34;&gt;Headers&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://zdszero.github.io/posts/markdown-test/#blockquote&#34;&gt;Blockquotes&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://zdszero.github.io/posts/markdown-test/#list&#34;&gt;Lists&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://zdszero.github.io/posts/markdown-test/#precode&#34;&gt;Code Blocks&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://zdszero.github.io/posts/markdown-test/#hr&#34;&gt;Horizontal Rules&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://zdszero.github.io/ustc-graduate-guide/posts/markdown-test/#p&#34;&gt;Paragraphs and Line Breaks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://zdszero.github.io/ustc-graduate-guide/posts/markdown-test/#header&#34;&gt;Headers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://zdszero.github.io/ustc-graduate-guide/posts/markdown-test/#blockquote&#34;&gt;Blockquotes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://zdszero.github.io/ustc-graduate-guide/posts/markdown-test/#list&#34;&gt;Lists&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://zdszero.github.io/ustc-graduate-guide/posts/markdown-test/#precode&#34;&gt;Code Blocks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://zdszero.github.io/ustc-graduate-guide/posts/markdown-test/#hr&#34;&gt;Horizontal Rules&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://zdszero.github.io/posts/markdown-test/#span&#34;&gt;Span Elements&lt;/a&gt;
+&lt;li&gt;&lt;a href=&#34;https://zdszero.github.io/ustc-graduate-guide/posts/markdown-test/#span&#34;&gt;Span Elements&lt;/a&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://zdszero.github.io/posts/markdown-test/#link&#34;&gt;Links&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://zdszero.github.io/posts/markdown-test/#em&#34;&gt;Emphasis&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://zdszero.github.io/posts/markdown-test/#code&#34;&gt;Code&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://zdszero.github.io/posts/markdown-test/#img&#34;&gt;Images&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://zdszero.github.io/ustc-graduate-guide/posts/markdown-test/#link&#34;&gt;Links&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://zdszero.github.io/ustc-graduate-guide/posts/markdown-test/#em&#34;&gt;Emphasis&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://zdszero.github.io/ustc-graduate-guide/posts/markdown-test/#code&#34;&gt;Code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://zdszero.github.io/ustc-graduate-guide/posts/markdown-test/#img&#34;&gt;Images&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://zdszero.github.io/posts/markdown-test/#misc&#34;&gt;Miscellaneous&lt;/a&gt;
+&lt;li&gt;&lt;a href=&#34;https://zdszero.github.io/ustc-graduate-guide/posts/markdown-test/#misc&#34;&gt;Miscellaneous&lt;/a&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://zdszero.github.io/posts/markdown-test/#backslash&#34;&gt;Backslash Escapes&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://zdszero.github.io/posts/markdown-test/#autolink&#34;&gt;Automatic Links&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://zdszero.github.io/ustc-graduate-guide/posts/markdown-test/#backslash&#34;&gt;Backslash Escapes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://zdszero.github.io/ustc-graduate-guide/posts/markdown-test/#autolink&#34;&gt;Automatic Links&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; This document is itself written using Markdown; you
-can &lt;a href=&#34;https://zdszero.github.io/projects/markdown/syntax.text&#34;&gt;see the source for it by adding &#39;.text&#39; to the URL&lt;/a&gt;.&lt;/p&gt;
+can &lt;a href=&#34;https://zdszero.github.io/ustc-graduate-guide/projects/markdown/syntax.text&#34;&gt;see the source for it by adding &#39;.text&#39; to the URL&lt;/a&gt;.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
 &lt;h3 id=&#34;philosophy&#34;&gt;Philosophy&lt;/h3&gt;

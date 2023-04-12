@@ -1,7 +1,7 @@
 ##########################################
 # 站点配置
 
-baseURL = "https://zdszero.github.io/"
+baseURL = "https://zdszero.github.io/ustc-graduate-guide"
 title = "Less is More"
 languageCode = "zh-CN"
 hasCJKLanguage = true
