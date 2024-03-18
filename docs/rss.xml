@@ -23,7 +23,7 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
         
-        <lastBuildDate>Mon, 18 Mar 2024 20:06:03 &#43;0800</lastBuildDate>
+        <lastBuildDate>Mon, 18 Mar 2024 20:13:48 &#43;0800</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://zdszero.github.io/ustc-graduate-guide/rss.xml" />
         
@@ -882,9 +882,17 @@ a b c
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;输入示例:
 25 15 40 5 20 30 50 10 35
 输出示例:
-170
+165
 &lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;解题思路-3&#34;&gt;解题思路&lt;/h3&gt;
-&lt;p&gt;首先根据输入建立二叉排序树，然后直接暴力递归即可，按照如下代码&lt;/p&gt;
+&lt;p&gt;根据上述输入可以构建如下二叉树，最长路径为 &lt;code&gt;20, 15, 25, 40, 30, 35&lt;/code&gt;，和为165，这里注意最长路径不一定经过树的根节点。&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;     25
+   /    \ 
+  15     40
+ /  \   /  \
+5   20 30  50
+ \      \
+  10    35
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;首先根据输入建立二叉排序树，然后直接暴力递归即可，按照如下代码&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
