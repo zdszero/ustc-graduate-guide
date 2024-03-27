@@ -157,7 +157,29 @@ int main(int argc, char *argv[]) {
   return 0;
 }
 ```
+写了一个比较刁钻的dp,状态转移的方程的核心，就是能否与之前的构成等差序列，或者从他这里再开一个新的等差序列。不知道是否是对的，能过他给的样例，但不知道是否具有泛化性。
+```cpp
+//
+// Created by liu'bo'yan on 2024/3/21.
+//
+#include <bits/stdc++.h>
 
+using namespace std;
+int main(){
+    int n=0;
+    int a[1000];
+    ifstream ifs("2017input3.txt");
+    while (ifs>>a[n++]);
+    int dp[n+1];
+    memset(dp,0, sizeof(dp));
+    dp[0]=1;
+    dp[1]=2;
+    for (int i = 2; i <n; ++i){
+        dp[i+1]=max(dp[i]+((a[i-1]-a[i-2])==(a[i]-a[i-1])),2);
+    }
+    cout<<dp[n];
+}
+```
 ## 第四题
 
 ### 题目描述

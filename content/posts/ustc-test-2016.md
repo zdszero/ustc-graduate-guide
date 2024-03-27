@@ -88,7 +88,39 @@ int main(int argc, char *argv[]) {
   return 0;
 }
 ```
+感觉用map没有必要，写了一个没有map的解法
+```cpp
+//
+// Created by liu'bo'yan on 2024/3/22.
+//
+#include <bits/stdc++.h>
 
+using namespace std;
+int main(){
+    double x;
+    int n;
+    scanf("%lf",&x);
+    int x_100=100*x;
+    cin>>n;
+    if(x_100<n){
+        cout<<"please reenter!";
+        return 0;
+    }
+    int v[n];
+    for (int i = 0; i < n-1; ++i) {
+        int r=0;
+        while (r==0){
+            r=rand()%(x_100-1);
+        }
+        v[i]=r;
+        x_100-=r;
+    }
+    v[n-1]=x_100;
+    for (int i = 0; i < n; ++i){
+        printf("%.2f ",v[i]/100.0);
+    }
+}
+```
 ## 第三题
 
 ### 题目描述
@@ -125,7 +157,31 @@ int main(int argc, char *argv[]) {
   return 0;
 }
 ```
+将二分写在函数内的写法
+```cpp
+//
+// Created by liu'bo'yan on 2024/3/22.
+//
+#include <bits/stdc++.h>
 
+using namespace std;
+double eps=0.00000001;
+double f(double x){
+    return 2*pow(x,11)-3*pow(x,8)-5*pow(x,3)-1;
+}
+int main(){
+    double l=0.0,r=2.0,mid;
+    while (r-l>eps){
+        mid=(l+r)/2.0;
+        if(f(mid)>0){
+            r=mid;
+        }else{
+            l=mid;
+        }
+    }
+    printf("%f",l);
+}
+```
 ## 第四题
 
 ### 题目描述

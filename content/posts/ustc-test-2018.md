@@ -115,7 +115,48 @@ int main(int argc, char *argv[]) {
   return 0;
 }
 ```
+他的if (eh <= sh && em <= sm)这句话判别错误，比如开始时间22:00,结束时间8:30，不满足他这个条件，但还需要做getgap<0的判断。
+使用时间戳来进行时间的判定，时间戳，即时间与00:00之间的分钟数。
+```cpp
+//
+// Created by liu'bo'yan on 2024/3/21.
+//
+#include <bits/stdc++.h>
 
+using namespace std;
+int timestamp(int h,int m){
+    return h*60+m;
+}
+int main(){
+    ifstream ifs("input2.txt");
+    int n,h_b,m_b,h_e,m_e,t,tm_b,tm_e,mx=0;
+    string s,mx_s;
+    ifs>>n;
+    unordered_map<string,int> cnts;
+    while (n--){
+        ifs>>s;
+        ifs>>h_b;
+        ifs.ignore(1);
+        ifs>>m_b;
+        ifs>>h_e;
+        ifs.ignore(1);
+        ifs>>m_e;
+        tm_e=timestamp(h_e,m_e);
+        tm_b=timestamp(h_b,m_b);
+        if(tm_e<tm_b ){
+            t=24*60-tm_e+tm_b;
+        }else{
+            t=tm_e-tm_b;
+        }
+        cnts[s]+=t;
+        if(cnts[s]>mx){
+            mx=cnts[s];
+            mx_s=s;
+        }
+    }
+    cout<<mx_s;
+}
+```
 ## 第三题
 
 ### 题目描述
@@ -134,7 +175,8 @@ int main(int argc, char *argv[]) {
 
 ### 解题思路
 
-用一个dfs来遍历所有的选择，注意应该优先从数值较大的邮票开始选择（这样可以使凑够目标面值所需的邮票数较少），如果遍历完所有的情况都不能满足则返回-1
+用一个dfs来遍历所有的选择，注意应该优先从数值较大的邮票开始选择（这样可以使凑够目标面值所需的邮票数较少），如果遍历完所有的情况都不能满足则返回-1.
+这个写的是错的，参考leetcode 322
 
 ### 代码
 

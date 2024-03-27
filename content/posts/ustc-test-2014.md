@@ -43,7 +43,7 @@ int main(int argc, char *argv[]) {
 
 ### 题目描述
 
-给你一个十进制数，输出相应的八进制数。
+给你一个十进制数，输出相应的八进制数。经典的进制转换，考过几次了。
 
 ## 第三题
 
@@ -182,4 +182,42 @@ int main(int argc, char *argv[]) {
   }
   return 0;
 }
+```
+邻接表表示的图的写法
+```cpp
+//
+// Created by liu'bo'yan on 2024/3/22.
+//
+#include <bits/stdc++.h>
+
+using namespace std;
+int main(){
+    ifstream ifs("graph.in");
+    int n,x,y;
+    ifs>>n;
+    vector<vector<int>> g(n+1,vector<int>());
+    while (ifs>>x>>y){
+        if(x==0||y==0)break;
+        g[x].emplace_back(y);
+        g[y].emplace_back(x);
+    }
+    queue<int> q;
+    int vis[n+1];
+    memset(vis,0, sizeof(vis));
+    q.push(1);
+    vis[1]=1;
+    while (!q.empty()){
+        int i=q.front();
+        q.pop();
+        cout<<i<<" ";
+        vis[i]=1;
+        for(int j:g[i]){
+            if(!vis[j]){
+                q.push(j);
+                vis[j]=1;
+            }
+        }
+    }
+}
+
 ```

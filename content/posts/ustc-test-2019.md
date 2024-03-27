@@ -122,7 +122,7 @@ int main(int argc, char *argv[]) {
 
 ### 解题思路
 
-笔者在复习做到这道题目时直接忘了前缀式如何处理，因为平时只处理过中缀表达式和后缀表达式，忘记了的同学可以看看[这篇文章](https://baike.baidu.com/item/%E5%89%8D%E7%BC%80%E8%A1%A8%E8%BE%BE%E5%BC%8F)。其实和后缀表达式求值原理一样，只不过是从右向左扫描的。
+笔者在复习做到这道题目时直接忘了前缀式如何处理，因为平时只处理过中缀表达式和后缀表达式，忘记了的同学可以看看[这篇文章](https://baike.baidu.com/item/%E5%89%8D%E7%BC%80%E8%A1%A8%E8%BE%BE%E5%BC%8F)。其实和后缀表达式求值原理一样，只不过是从右向左扫描的。后缀式的计算，也一样可以思考。
 
 ### 代码
 
@@ -243,7 +243,56 @@ int main(int argc, char *argv[]) {
   return 0;
 }
 ```
+使用匿名函数重新写了一遍
+```cpp
+//
+// Created by liu'bo'yan on 2024/3/21.
+//
+#include <bits/stdc++.h>
 
+using namespace std;
+int main(){
+    ifstream ifs("set.in");
+    vector<char> cs;
+    vector<vector<vector<char>>> ans;
+    vector<vector<char>> subset;
+    char c;
+    while (ifs>>c){
+        cs.emplace_back(c);
+    }
+    int n=cs.size();
+    function<void(int)> dfs=[&](int i){
+        if(i==n){
+            ans.emplace_back(subset);
+            return ;
+        }
+        for (auto & j : subset) {
+            j.emplace_back(cs[i]);
+            dfs(i+1);
+            j.pop_back();
+        }
+        subset.push_back({cs[i]});
+        dfs(i+1);
+        subset.pop_back();
+    };
+    dfs(0);
+    for (auto &s:ans) {
+        cout<<"{";
+        for(int i=0;i<s.size();i++){
+            cout<<"{";
+            auto ss=s[i];
+            for (int j = 0; j < ss.size(); ++j){
+                cout<<ss[j];
+                if(j!=ss.size()-1)cout<<',';
+            }
+            cout<<'}';
+            if(i!=s.size()-1)cout<<',';
+        }
+        cout<<'}';
+        cout<<endl;
+    }
+}
+```
 ## 第五题
 
 ### 题目描述

@@ -10,6 +10,8 @@ draft: true
 ### 题目描述
 
 输出 abcdefghij 任取 5 个字符所有组合，不能有重复，输出到控制台
+### 解题思路
+感觉这第1题不需要用回溯，有点复杂了。我直接使用的暴力，那个对，交由你来评判。
 ```
 格式：
 第 1 种组合：a,b,c,d,e
@@ -46,7 +48,29 @@ int main(int argc, char *argv[]) {
   return 0;
 }
 ```
+```cpp
+//
+// Created by liu'bo'yan on 2024/3/22.
+//
+#include <bits/stdc++.h>
 
+using namespace std;
+int main(){
+    string s="abcdefghij";
+    int cnt=0;
+    for (int i = 0; i < 10; ++i) {
+        for (int j = i+1; j < 10; ++j) {
+            for (int k = j+1; k < 10; ++k) {
+                for (int l = k+1; l <10 ; ++l) {
+                    for (int m = l+1; m < 10; ++m) {
+                        cout<<"第"<<cnt++<<"种组合"<<s[i]<<','<<s[j]<<','<<s[k]<<','<<s[l]<<','<<s[m]<<endl;
+                    }
+                }
+            }
+        }
+    }
+}
+```
 ## 第二题
 
 ### 题目描述
