@@ -70,7 +70,56 @@ int main(int argc, char *argv[]) {
   return 0;
 }
 ```
+迭代器语法略有臃肿，我使用了非迭代器的设计
+### 代码2
 
+```cpp
+//
+// Created by liu'bo'yan on 2024/3/20.
+//
+#include <bits/stdc++.h>
+
+using namespace std;
+using ll = long long;
+int main(){
+    vector<string> lines;
+    vector<string> ans;
+    string tmp;
+    ifstream ifs("input.txt");
+    while (getline(ifs,tmp)){
+        lines.emplace_back(tmp);
+    }
+    for (int i = 0; i <lines.size();++i) {
+        string s=lines[i];
+//        anss代表每一行
+        string anss="";
+        int last_word_idx=0;
+        for (int j = 0; j < s.length(); ++j) {
+            char c=s[j];
+            if(isalpha(c)){
+                anss+=c;
+            }else if(c=='*'){
+                ans.pop_back();
+            }else if(c=='!'){
+                anss.pop_back();
+            }else if(c==' '){
+                anss+=c;
+                last_word_idx=anss.length();
+            }else if(c=='>'){
+                if(anss[last_word_idx]>'a'&&anss[last_word_idx]<'z'){
+                    anss[last_word_idx]= toupper(anss[last_word_idx]);
+                }else{
+                    anss[last_word_idx]= tolower(anss[last_word_idx]);
+                }
+            }
+        }
+        ans.emplace_back(anss);
+    }
+    for (int i = 0; i < ans.size(); ++i){
+        cout<<ans[i]<<endl;
+    }
+}
+```
 ## 第二题
 
 ### 题目描述
